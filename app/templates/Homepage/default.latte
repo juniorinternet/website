@@ -9,6 +9,7 @@
 		<h1>Junior Internet</h1>
 		<h2>Odrazový můstek <span class="line-break"></span>pro mladé internetové nadšence.</h2>
 		<p>Již 14 let pomáháme mladým lidem poznat internetové technologie, zajímavé lidi a prosadit se na internetu.</p>
+		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
 		<p class="nav quicknav" role="navigation">
 			Organizujeme:
 			<a n:href="competition">Soutěže</a>

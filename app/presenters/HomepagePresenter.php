@@ -31,7 +31,7 @@ class HomepagePresenter extends BasePresenter
 			{
 				$file = preg_replace('#^.*([/\\\\].{1,70})$#U', "\xE2\x80\xA6\$1", reset($files));
 				$file = strtr($file, '/', DIRECTORY_SEPARATOR);
-				$this->flashMessage("V listopadu 2012 jsme sputili nový web. Stránka, kterou hledáte, jsme nejspíše přesunuli či úplně zrušili. Zkuste jí prosím najít ručně");
+				$this->flashMessage("V listopadu 2012 jsme sputili nový web. Stránku, kterou hledáte, jsme nejspíše přesunuli či úplně zrušili. Doufáme, že hledané informace najdete i na našich nových stránkách.");
 				$this->redirect("default");
 			}
 		}
