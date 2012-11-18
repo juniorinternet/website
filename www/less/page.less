@@ -1,0 +1,265 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+
+
+.banner {
+	text-align: center;
+	padding: @gutterwidth;
+
+	h2 {
+		.font-size(18); }
+	a {
+		color: @primarytextmain; }
+}
+
+.primary {
+	background-color: @primarycolor;
+	color: @primarytextmain;
+	padding: @gutterwidth;
+	text-align: center;
+
+	h2 {
+		text-shadow: 0 2px 2px #2e3147;	}
+
+	p {
+		color: @primarytextsecond; }
+
+	.year {
+		color: @primarytextsecond;
+		display: block;
+		margin-bottom: @gutterwidth;
+		margin-top: -@gutterwidth / 2; }
+}
+
+.secondary {
+	background-color: @secondarycolor;
+	padding: @gutterwidth;
+	text-align: center;
+	border-top: 1px solid #f59e68;
+	border-bottom: 2px solid #c14422;
+
+	p {
+		color: @secondarytextmain; }
+
+	h2,
+	h3 {
+		text-shadow: 0 2px 2px #98542a;	}
+}
+
+.tertiary {
+	border-top: 2px solid #0b0d22;
+	border-bottom: 1px solid #dbdceb;
+	padding: @gutterwidth;
+	text-align: center; }
+
+.competition {
+	.categories {
+		margin: 20px 0;
+
+		.category {
+			h3 {
+				margin-bottom: 5px;
+				text-shadow: none; }
+			.category-about {
+				background: @white;
+				margin-bottom: 30px;
+				padding: 10px; }
+		}
+
+	}
+
+}
+
+.special-list {
+	display: block;
+
+	li {
+		display: inline;
+		list-style: none;
+		border-right: 1px solid @secondarytextmain;
+		padding-right: 5px;
+		&:last-child {
+			border-right: 0; }
+	}
+}
+
+.special-awards {
+	li {
+		font-weight: bold; }
+}
+
+.win {
+	margin-top: 15px;
+	padding: 15px 0;
+
+	hr {
+		border: none;
+		background: #fa6a3a;
+		width: 70%;
+		margin: 0 auto; }
+
+	h3 {
+		margin-top: 15px; }
+
+	ul {
+		text-align: left;
+		list-style-position: inside; }
+
+}
+
+.btn-extlarge {
+	padding : 11px 22px;
+	.font-size(14);
+	.rounded(2px);
+	text-shadow: 0 -2px 1px #272934;
+	.transition(background-color 100ms ease-in);
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: lighten(@primarycolor, 10%); }
+}
+
+.extraordinary-text {
+	font-weight: bold; }
+
+.partners {
+
+	h2,
+	h3 {
+		.font-size(13);
+		margin-bottom: 2em; }
+
+	h3 {
+		margin-top: 2em; }
+}
+
+.nav {
+	.font-size(14);
+
+	a {
+		color: @navcolor;
+		.transition(color 100ms ease-in);
+		text-decoration: none;
+		border-bottom: 1px solid @navhovercolor;
+		margin-left: 10px;
+
+		&:hover,
+		&:active,
+		&:focus {
+			color: @navhovercolor; }
+	}
+
+	span.wip {
+		color: @navhovercolor;
+		text-decoration: line-through;
+		margin-left: 10px;
+	}
+}
+
+.conference-date {
+	.font-size(22);
+
+	.conference-day {
+		line-height: 2.3;
+		font-weight: bold;
+		font-style: normal; }
+}
+
+p.extraordinary-text + * {
+	margin-top: 1em; }
+
+.footer {
+	text-align: left;
+	border-top: #c85b28;
+
+	h3 {
+		.font-size(14);
+		margin-bottom: .2em; }
+
+	.organize {
+		.font-size(13); }
+
+	.social {
+		margin: 10px 0;
+		background: #f6f7fa;
+		display: inline-block;
+		padding: 5px 5px 0;
+		.rounded(2px);
+		a {
+			.font-size(24);
+			line-height: 1.5;
+			text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+			padding: 5px 8px 0;
+			&.twitter {
+				color: #58bbff;	}
+			&.facebook {
+				color: #3e5299; }
+			&.github {
+				color: @black; }
+		}
+	}
+	.github {
+		clear: both;
+		padding-top: @gutterwidth;
+
+		.ss-icon {
+			color: #333;
+			position: relative;
+			top: 2px; }
+
+	}
+	.quick-contact {
+		clear: both; }
+	.newsletter {
+		background: #f6f7fa;
+		margin: 10px 0;
+		padding: 7px 7px;
+		.rounded(2px);
+
+		form {
+			margin-bottom: 0; }
+		[type="text"] {
+			max-width: 300px;
+			border: 1px solid #ddd;
+			border-top-color: @primarytextsecond; }
+		button {
+			border: 1px solid @primarycolor;
+			background: @primarycolor;
+			color: #eee;
+			border-top-color: #1f212e;
+			border-bottom-color: #1f212e;
+			padding-top: 4px;
+			padding-bottom: 3px;
+			.rounded(2px); }
+		div,
+		p {
+			display: inline-block;
+			color: @primarycolor;
+			margin-bottom: 0; }
+		p {
+			margin-right: 5px; }
+	}
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    background: #ccc;
+    color: #000;
+    padding: 1em;
+    a {
+    	color: @primarycolor;
+    }
+}
+
+.text-left {
+	text-align: left; }

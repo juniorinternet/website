@@ -6,6 +6,7 @@
 #
 common:
 	parameters:
+		urlToCompetitionSystem: "http://souteze.juniorinternet.cz"
 
 	php:
 		date.timezone: Europe/Prague
@@ -25,7 +26,6 @@ common:
 
 
 	services:
-		authenticator: Authenticator
 
 
 	factories:

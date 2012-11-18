@@ -1,0 +1,40 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* 600 =================================================== */
+.banner {
+	h2 {
+		.font-size(32); }
+}
+
+h2,
+h3 {
+	font-family: "proxima-nova", @basefont;
+	font-weight: 600;	}
+
+.line-break {
+	display: block; }
+
+.partners {
+	h2,
+	h3 {
+
+		span {
+			background-color: @white;
+			padding: 0 5px; }
+
+		&:after{
+			content: "";
+			display: block;
+			width: 80%; height: 1px;
+			background-color: #e8eaf6;
+			margin-top: -0.6em;
+			margin-left: auto; margin-right: auto; }
+		}
+}

@@ -1,0 +1,73 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* 992 =================================================== */
+
+.inner {
+	width: 980px;
+	margin: 0 auto; }
+
+.banner {
+
+	h1 {
+		margin-bottom: 100px; }
+
+	.year {
+		padding-bottom: 100px;
+		.font-size(16); }
+
+	h2 {
+		margin-bottom: .8em; }
+
+	h2 + p {
+		margin-bottom: 5em; }
+
+	h2 + p.extraordinary-text {
+		margin-bottom: 1em; }
+
+}
+
+.competition {
+	background-position: 50% 50px;
+	background-repeat: no-repeat;
+
+	&.primary {
+ 		background-image: url("../img/souteze_icons_primary.png"); }
+
+	&.secondary {
+		background-image: url("../img/souteze_icons_secondary.png"); }
+
+	.categories {
+		.category {
+			max-width: 180px;
+			margin: 10px;
+
+			.category-about {
+				height: 180px;
+				div {
+						height: 140px; }
+			}
+		}
+	}
+}
+
+.win {
+	hr {
+		margin: 30px auto; }
+}
+
+.footer {
+		.quick-contact {
+			clear: none;
+			max-width: 200px;
+			float: right;
+			margin-right: @gutterwidth * 2;
+			margin-top: 5px; }
+}
+

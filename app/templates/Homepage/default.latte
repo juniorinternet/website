@@ -1,120 +1,125 @@
-{* This is the welcome page, you can delete it *}
 
-{block content}
-<div id="banner">
-	<h1 n:block=title>Congratulations!</h1>
+
+{block #title}Junior Internet{/block}
+
+{block #content}
+<div role="banner" class="clearfix banner primary">
+	<div class="inner">
+		<span class="year">2013 &mdash; 14. ročník</span>
+		<h1>Junior Internet</h1>
+		<h2>Odrazový můstek <span class="line-break"></span>pro mladé internetové nadšence.</h2>
+		<p>Již 14 let pomáháme mladým lidem poznat internetové technologie, zajímavé lidi a prosadit se na internetu.</p>
+		<p class="nav quicknav" role="navigation">
+			Organizujeme:
+			<a n:href="competition">Soutěže</a>
+
+			<!-- <a href="/konference">Konference</a> -->
+			<span class="wip" title="V přípravě">Konference</span>
+
+			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
+			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
+		</p>
+		
+		{include #mainNav}
+	</div>
+
 </div>
 
-<div id="content">
-	<h2>You have successfully created your Nette Framework project.</h2>
+<div role="main" class="content clearfix secondary competition">
 
-	<div class="box">
-		<h2><img src="http://files.nette.org/sandbox/sourcecode.png" alt="">Explore source codes</h2>
-		<p>See source code of <a href="#template">this page template</a>, <a href="#layout">layout template</a> and
-		<a href="#presenter">corresponding presenter</a>. And feel free to modify them!</p>
+	<div class="inner">
+		{block|texy}
+		<h2>Soutěže</h2>
+		<p class="extraordinary-text">Ukaž co v tobě je. Přihlaš projekt do soutěže a vyhraj hodnotné ceny.</p>
+		<p>Junior Internet se může stát tvým odrazovým můstkem, který tě vyhoupne do světa úspěšných mladých internetových webdesignerů, programátorů, internetových novinářů, či náctiletých podnikatelů. Podívej se na <a n:href="successStories">příběhy vítězů</a> a jak jim Junior Internet změnil život.</p>
+		<p>Přihlášky končí <strong>17. února 2013 o půlnoci</strong>.</p>
+		{/block}
+		<div class="categories clearfix">
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Web</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Webové stránky, internetové služby a projekty umístěné na Internetu.</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Design</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Design webových stránek či jiné elektronické grafické práce.</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Text</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Slohová práce na téma "internet a vzdělávání".</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Erb</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Obecně prospěšné internetové projekty nebo stránky týkající se místa vašeho bydliště.</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+		</div>
+		{block|texy}
+		<p>Letos udělujeme také <strong>speciální ceny</strong> napříč soutěžemi Junior Web a Junior Erb:</p>
+		<ul class="special-awards special-list">
+			<li>Technologické zpracování</li>
+			<li>Uživatelský prožitek na mobilech</li>
+			<li>Nadace Vodafone za obecně prospěšný projekt</li>
+			<li>Cena veřejnosti</li>
+		</ul>
+		<p><a href="{!$urlToCompetitionSystem}" class="btn btn-extlarge btn-primary">Přihlásit se do soutěže</a></p>
+		<p>
+			<a n:href="competition">další informace</a> |
+			<a n:href="competition#pravidla">pravidla soutěže &amp; průběh hodnocení</a>
+		</p>
+		{/block}
 	</div>
 
-	<div class="box">
-		<h2><a href="{$basePath}/adminer/"><img src="http://files.nette.org/sandbox/database.png" alt="">Manage database tables</a></h2>
-		<p>Manage your database using pre-installed tool <a href="{$basePath}/adminer/">Adminer</a> with an easy to use GUI.<p>
+</div><!-- / content -->
+
+<div role="complementary" class="content clearfix tertiary">
+
+	<div class="inner">
+		<p class="extraordinary-text">Připravujeme Junior Camp ve školách.</p>
+		<p>Jeden den plný nových webových technologií a týmové práce ve tvé škole.</p>
 	</div>
 
-	<div class="box">
-		<h2><a href="http://doc.nette.org/quickstart"><img src="http://files.nette.org/sandbox/book.png" alt="">Read<br>Quick-start tutorial</a></h2>
-		<p>If you are exploring Nette Framework for the first time, you should read the
-		<a href="http://doc.nette.org/quickstart">Quick Start</a>, <a href="http://doc.nette.org">documentation</a>,
-		<a href="http://pla.nette.org">tutorials</a> and <a href="http://forum.nette.org">forum</a>.</p>
+</div><!-- / content -->
+
+<div role="complementary" class="content clearfix primary">
+
+	<div class="inner">
+		<h2>Konference</h2>
+		<div class="conference clearfix">
+			<div class="half left-side">
+				{block|texy}
+				<p>Den plný nezapomenutelných přednášek, nových kamarádů, zajímavých rozhovorů a finále soutěží Junior Internet.</p>
+				<p>Registrace na konferenci se otevřou v únoru 2013. Vstup je zdarma.</p>
+				{/block}
+			</div>
+			<div class="half">
+				<div class="conference-date">
+					<i class="conference-day">23<span>.</span></i> <strong class="conference-year"><span>březen 2013</span></strong>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<h2>We hope you enjoy this framework!</h2>
-
-	<section id="template">
-		<h2>This page template located at <span>{strstr($presenter->template->getFile(), app)}</span></h2>
-
-		<pre><code class="jush">{file_get_contents($presenter->template->getFile())}</code></pre>
-	</section>
-
-	<section id="layout">
-		<h2>Layout template located at <span>{strstr($template->getFile(), app)}</span></h2>
-
-		<pre><code class="jush">{file_get_contents($template->getFile())}</code></pre>
-	</section>
-
-	<section id="presenter">
-		<h2>Current presenter located at <span>{strstr($presenter->reflection->fileName, app)}</span></h2>
-
-		<pre><code class="jush-php">{file_get_contents($presenter->reflection->fileName)}</code></pre>
-	</section>
-
-	<footer>PHP {=PHP_VERSION} |
-		{ifset $_SERVER['SERVER_SOFTWARE']}Server {$_SERVER['SERVER_SOFTWARE']}{/ifset} |
-		Nette Framework {=Nette\Framework::VERSION}</footer>
-</div>
-
-<script src="http://jush.sourceforge.net/jush.js"></script>
-<script>
-	jush.create_links = false;
-	jush.highlight_tag('code');
-	$('code.jush').each(function(){ $(this).html($(this).html().replace(/\x7B[/$\w].*?\}/g, '<span class="jush-latte">$&</span>')) });
-
-	$('a[href^=#]').click(function(){
-		$('html,body').animate({ scrollTop: $($(this).attr('href')).show().offset().top - 5 }, 'fast');
-		return false;
-	});
-</script>
-{/block}
-
-
-{block head}
-<style>
-html { overflow-y: scroll; }
-body { font: 14px/1.65 Verdana, "Geneva CE", lucida, sans-serif; background: #3484d2; color: #333; margin: 38px auto; max-width: 940px; min-width: 770px; }
-
-h1, h2 { font: normal 150%/1.3 Georgia, "New York CE", utopia, serif; color: #1e5eb6; -webkit-text-stroke: 1px rgba(0,0,0,0); }
-
-img { border: none; }
-
-a { color: #006aeb; padding: 3px 1px; }
-
-a:hover, a:active, a:focus { background-color: #006aeb; text-decoration: none; color: white; }
-
-#banner { border-radius: 12px 12px 0 0; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAB5CAMAAADPursXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBQTFRFD1CRDkqFDTlmDkF1D06NDT1tDTNZDk2KEFWaDTZgDkiCDTtpDT5wDkZ/DTBVEFacEFOWD1KUDTRcDTFWDkV9DkR7DkN4DkByDTVeDC9TDThjDTxrDkeADkuIDTRbDC9SbsUaggAAAEdJREFUeNqkwYURgAAQA7DH3d3335LSKyxAYpf9vWCpnYbf01qcOdFVXc14w4BznNTjkQfsscAdU3b4wIh9fDVYc4zV8xZgAAYaCMI6vPgLAAAAAElFTkSuQmCC); }
-#banner h1 { color: white; font-size: 50px; line-height: 121px; margin: 0; padding-left: 40px; background: url(http://files.nette.org/sandbox/logo.png) no-repeat 95%; text-shadow: 1px 1px 0 rgba(0, 0, 0, .9); }
-
-#content { background: white; border: 1px solid #eff4f7; border-radius: 0 0 12px 12px; padding: 10px 40px; }
-#content > h2 { font-size: 130%; color: #666; clear: both; padding: 1.2em 0; margin: 0; }
-
-h2 span { color: #87A7D5; }
-h2 a { text-decoration: none; background: transparent; }
-
-.box { width: 24%; float: left; background: #f0f0f0; margin-right: 4%; min-height: 230px; padding: 3%; border: 1px solid #e6e6e6; border-radius: 5px; }
-.box h2 { text-align: right; margin: 0; }
-.box img { float: left; }
-.box p { clear: both; }
-.box:nth-child(4n - 2) h2 { color: #00a6e5; }
-.box:nth-child(4n - 2) img { margin: -24px 0 0 -24px; }
-.box:nth-child(4n - 1) h2 a { color: #db8e34; background: transparent; }
-.box:nth-child(4n) { margin: 0; }
-.box:nth-child(4n) h2 a { color: #578404; background: transparent; }
-
-body.js section { display: none; }
-
-pre { font-size: 12px; line-height: 1.4; padding: 10px; margin: 1.3em 0; overflow: auto; max-height: 500px; background: #F1F5FB; border-radius: 5px; box-shadow: 0 1px 1px rgba(0, 0, 0, .1); }
-
-footer { font-size: 70%; padding: 1em 0; color: gray; }
-
-.jush-com, .jush-php_doc { color: #929292; }
-.jush-tag, .jush-tag_js { color: #6A8527; font-weight: bold; }
-.jush-att { color: #8CA315 }
-.jush-att_quo { color: #448CCB; font-weight: bold; }
-.jush-php_var { color: #d59401; font-weight: bold; }
-.jush-php_apo { color: green; }
-.jush-php_new { font-weight: bold; }
-.jush-php_fun { color: #254DB3; }
-.jush-js, .jush-css { color: #333333; }
-.jush-css_val { color: #448CCB; }
-.jush-clr { color: #007800; }
-.jush a { color: inherit; background: transparent; }
-.jush-latte { color: #D59401; font-weight: bold }
-</style>
-{/block}
+</div><!-- / content -->

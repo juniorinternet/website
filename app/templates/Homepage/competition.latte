@@ -1,0 +1,154 @@
+
+{block #title}Junior Internet{/block}
+
+{block #content}
+<div role="banner" class="clearfix banner primary">
+	<div class="inner">
+		<span class="year">2013 &mdash; 14. ročník</span>
+		{*
+			elegantně vyřešit navigaci na homepage - nějaká pěkná šipka "rukou" by byla cool
+			<div class="homepage"><a n:href="default">na úvod</a></div>
+		*}
+
+		<h1><a n:href="default">Junior Internet</a></h1>
+		<h2>Soutěže 2013</h2>
+
+		{block|texy}
+			<p class="extraordinary-text">Ukaž co v tobě je. <a href="{$urlToCompetitionSystem}">Přihlaš projekt do soutěže</a> a vyhraj hodnotné ceny.</p>
+			<p>Junior Internet se může stát tvým odrazovým můstkem, který tě vyhoupne do světa úspěšných mladých internetových webdesignerů, programátorů, internetových novinářů, či náctiletých podnikatelů. Podívej se na <a n:href="successStories">příběhy vítězů</a> a jak jim Junior Internet změnil život.</p>
+		{/block}
+		<p class="nav quicknav" role="navigation">
+			Také organizujeme:
+
+			<!-- <a href="/konference">Konference</a> -->
+			<span class="wip" title="V přípravě">Konference</span>
+
+			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
+			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
+		</p>
+
+		{include #mainNav}
+	</div>
+</div>
+
+<div role="main" class="content clearfix secondary competition">
+
+	<div class="inner">
+		{block|texy}
+		<h2>Soutěžní kategorie</h2>
+		<p>Přihlášky končí <strong>17. února 2013 o půlnoci</strong>.</p>
+		{/block}
+		<div class="categories clearfix">
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Web</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Webové stránky, internetové služby a projekty umístěné na Internetu.</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Design</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Design webových stránek či jiné elektronické grafické práce.</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Text</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Slohová práce na téma "internet a vzdělávání".</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+			<div class="category">
+				{block|texy}
+				<h3>Junior <span>Erb</span></h3>
+				<div class="category-about">
+					<div>
+						<p>Obecně prospěšné internetové projekty nebo stránky týkající se místa vašeho bydliště.</p>
+					</div>
+				</div>
+				{/block}
+			</div>
+		</div>
+		{block|texy}
+		<p>Letos udělujeme také <strong>speciální ceny</strong> napříč soutěžemi Junior Web a Junior Erb:</p>
+		<ul class="special-awards special-list">
+			<li>Technologické zpracování</li>
+			<li>Uživatelský prožitek na mobilech</li>
+			<li>Nadace Vodafone za obecně prospěšný projekt</li>
+			<li>Cena veřejnosti</li>
+		</ul>
+		<p><a href="{$urlToCompetitionSystem}" class="btn btn-extlarge btn-primary">Přihlásit se do soutěže</a></p>
+		<p>
+			<a href="#pravidla">pravidla soutěže &amp; průběh hodnocení</a>
+		</p>
+		{/block}
+		<div class="win">
+			<hr>
+			<h3>Ceny</h3>
+			<ul class="special-list">
+				<li><strong>Účast na mezinárodním symposionu Junior Internetu v Praze</strong> (všichni finalisté)</li>
+				<li><strong>Prezentaci své práce na konferenci</strong> <a href="http://www.isss.cz">ISSS 2013</a> (finalisté soutěže Junior Erb)</li>
+				<li>Další výhry budou brzy oznámeny&hellip;</li>
+			</ul>
+		</div>
+	</div>
+
+</div><!-- / content -->
+
+<div role="complementary" class="content clearfix tertiary">
+
+	<div class="inner text-left" id="pravidla">
+		<h3>Pravidla soutěže &amp; průběh hodnocení</h3>
+		<p>Všichni účastníci soutěží musí být v den konference Junior Internet 2013 (23. března 2013) mladší 19-ti let.</p>
+		<p>Pro získání ceny je nutná osobní přítomnost finalisty na konferenci Junior Internet 2013.</p>
+		<p>
+			Přihlášené práce bude hodnotit porota složená z organizátorů, bývalých vítězů a nezávislých konzultantů. O úspěchu projektu rozhoduje obsah, nápad a provedení. Ta vybere v každé soutěži 3 finalisty, kteří odprezentují své práce na konferenci Junior Internet 2013 v Praze. Tam přímo na místě primárně na základě prezentací finalistů určí hvězdná porota (její složení bude oznámeno) pořadí na stupních vítězů.
+			<p>Ve speciálních cenách se vybírá jeden vítěz, který na konferenci převezme cenu. V technologickém zpracování se hodnotí kvalita kódu (pokrytí testy, komentáře, dodržování standardů, bezpečnost, použití nových technologií, &hellip;). V uživatelském prožitku na mobilech se hodnotí, jak projekt funguje na různých telefonech (rychlost načtení, pohodlnost ovládání, dostatek informací, &hellip;). V ceně Nadace Vodafone za obecně prospěšný projekt vyberou naši partneři jeden projekt, který jim přijde jako nejužitečnější pro obecné blaho. A v ceně veřejnosti je vítěz určen veřejným hlasováním na internetu.
+		</p>
+
+		<p>Soutěže Junior Web a Junior Design budou posuzovány ve dvou věkových kategoriích:</p>
+
+		<ul>
+			<li>15 let a méně (datum narození později než 23. března 1997)</li>
+			<li>
+			18 let a méně (datum narození mezi 23. března 1994 a 23. března 1997)</li>
+		</ul>
+			<p>Soutěže Junior Text a Junior Erb budou posuzovány v jedné věkové kategorii:</p>
+		<ul>
+			<li>18 let a méně (datum narození později než 23. března 1994)</li>
+		</ul>
+	</div>
+
+</div><!-- / content -->
+
+<div role="complementary" class="content clearfix primary">
+
+	<div class="inner">
+		<h2>Finále &amp; konference</h2>
+		<div class="conference clearfix">
+			<div class="half left-side">
+				{block|texy}
+				<p>Pokud postoupíš do finále, budeš svůj projekt prezentovat před odbornou porotou na konferenci Junior Internet 2013.</p>
+				<p>I kdybys nepostoupil, stejně přijď! Získáš diplom za účast v soutěži, inspiruješ se od těch nejlepších, poslechnneš si zajímavé přednášky a poznáš nové kamarády. Registrace na konferenci se otevřou v únoru 2013. Vstup je zdarma.</p>
+				{/block}
+			</div>
+			<div class="half">
+				<div class="conference-date">
+					<i class="conference-day">23<span>.</span></i> <strong class="conference-year"><span>březen 2013</span></strong>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div><!-- / content -->

@@ -1,0 +1,79 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* 320 =================================================== */
+
+.banner {
+
+	h1 {
+		clear: both;
+		.hide-text();
+		display: block;
+		width: 184px; height: 47px;
+		margin-left: auto;
+		margin-right: auto;
+		background: transparent url("../img/small/juniorinternet.png") 0 0 no-repeat;
+
+		a {
+			display: block;
+			height: 47px; width: 184px; }
+	}
+}
+
+.cssgradients .banner {
+	background: rgb(92,95,123); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(92,95,123,1) 0%, rgba(57,59,77,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(92,95,123,1)), color-stop(100%,rgba(57,59,77,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(92,95,123,1) 0%,rgba(57,59,77,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(92,95,123,1) 0%,rgba(57,59,77,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(92,95,123,1) 0%,rgba(57,59,77,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(92,95,123,1) 0%,rgba(57,59,77,1) 100%); /* W3C */
+}
+
+.year {
+	float: left;
+	.font-size(12); }
+
+.content,
+.banner {
+	position: relative;
+
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: 0; left: 0;
+		z-index: 1;
+		display: block;
+		width: 100%;
+		height: 50px; }
+
+	.inner {
+		position: relative;
+		z-index: 2; }
+}
+
+.content {
+	&.primary:after {
+		.vertical(@primarycolor, #363240); }
+	&.secondary:after {
+		.vertical(@secondarycolor, #e05f2e); }
+	&.tertiary:after {
+		.vertical(@tertiarycolor, #e7e8f6); }
+}
+
+.footer {
+	.vertical(#e05f2e, @secondarycolor, @secondarycolor);
+}
+
+.banner {
+	&:after {
+		height: 80px;
+		// Gradients does not support transparent as one of the colors, so need to fallback to image
+		background: transparent url("../img/header_shadow.png") repeat-x 0 0;	}
+}
