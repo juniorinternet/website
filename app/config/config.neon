@@ -13,6 +13,7 @@ common:
 		# zlib.output_compression: yes
 
 	nette:
+		xhtml: no
 		application:
 			errorPresenter: Error
 
