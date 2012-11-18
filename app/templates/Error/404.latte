@@ -1,10 +1,36 @@
 {var $robots = noindex}
+
+{block #title}404 | Junior Internet{/block}
+
+{block #description}Stránka nebyla nalezena.{/block}
+
 {block #content}
+<div role="banner" class="clearfix banner primary">
+	<div class="inner">
+		<span class="year">2013 &mdash; 14. ročník</span>
+		{*
+			elegantně vyřešit navigaci na homepage - nějaká pěkná šipka "rukou" by byla cool
+			<div class="homepage"><a n:href="default">na úvod</a></div>
+		*}
 
-<h1 n:block=title>Page Not Found</h1>
+		<h1><a n:href="default">Junior Internet</a></h1>
+		<h2>Rozbil se internet a tady nic není.</h2>
 
-<p>The page you requested could not be found. It is possible that the address is
-incorrect, or that the page no longer exists. Please use a search engine to find
-what you are looking for.</p>
+		{block|texy}
+			<p class="extraordinary-text">Je nám to líto, ale takovouhle stránku tady nemáme.</p>
+			<p>Možná jsme ji kdysi měli a zapomněli jsme na ni při změnách webu. Poslali jsem email sami sobě a zjistíme, kde je chyba.</p>
+		{/block}
+		<p class="nav quicknav" role="navigation">
+			Organizujeme:
+			<a n:href="competition">Soutěže</a>
 
-<p><small>error 404</small></p>
+			<!-- <a href="/konference">Konference</a> -->
+			<span class="wip" title="V přípravě">Konference</span>
+
+			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
+			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
+		</p>
+
+		{include #mainNav}
+	</div>
+</div>
