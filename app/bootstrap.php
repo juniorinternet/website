@@ -29,9 +29,44 @@ $configurator->addConfig(__DIR__ . '/config/config.neon');
 $container = $configurator->createContainer();
 
 // Setup router
+// ================= "funkcni" a prevedene stranky ================
 $container->router[] = new Route('index.php', 'Homepage:default', Route::ONE_WAY);
-$container->router[] = new Route('<action>[/<id>]', 'Homepage:default');
+$container->router[] = new Route('novinky', 'Homepage:news');
+$container->router[] = new Route('news', 'Homepage:news', Route::ONE_WAY);
 
+// souteze
+$container->router[] = new Route('souteze', 'Homepage:competition');
+$container->router[] = new Route('competitions.aspx', 'Homepage:competition', Route::ONE_WAY);
+$container->router[] = new Route('competitions/<name>.aspx', 'Homepage:competition', Route::ONE_WAY);
+
+$container->router[] = new Route('kontakt', 'Homepage:contact');
+$container->router[] = new Route('contact.aspx', 'Homepage:contact', Route::ONE_WAY);
+
+// ================= rozpracovane a nedodelane ================
+// about
+$container->router[] = new Route('o-projektu', 'Homepage:about');
+$container->router[] = new Route('about.aspx', 'Homepage:about', Route::ONE_WAY);
+$container->router[] = new Route('about/history.aspx', 'Homepage:about', Route::ONE_WAY);
+$container->router[] = new Route('about/seminars.aspx', 'Homepage:about', Route::ONE_WAY); // stary obsah - spis na Junior Camp?
+$container->router[] = new Route('download.aspx', 'Homepage:about', Route::ONE_WAY); // asi dame casem ke stazeni loga (pripadne na 'media'?)
+
+// konference
+$container->router[] = new Route('konference', 'Homepage:conference');
+$container->router[] = new Route('conference.aspx', 'Homepage:conference', Route::ONE_WAY);
+
+// pro media
+$container->router[] = new Route('pro-media', 'Homepage:media');
+$container->router[] = new Route('mediaroom.aspx', 'Homepage:media', Route::ONE_WAY);
+$container->router[] = new Route('mediaroom/<name>.aspx', 'Homepage:media', Route::ONE_WAY); // how-to-promote, wrote-about-us, press-releases
+
+// pribehy vitezu / success stories
+$container->router[] = new Route('pribehy-vitezu', 'Homepage:successStories');
+$container->router[] = new Route('winners.aspx', 'Homepage:successStories', Route::ONE_WAY);
+$container->router[] = new Route('winners/year/<year>.aspx', 'Homepage:successStories', Route::ONE_WAY);
+$container->router[] = new Route('winners/competition/<competition>.aspx', 'Homepage:successStories', Route::ONE_WAY);
+
+// ostatni -> da se flash message, ze jsme ji smazali
+$container->router[] = new Route('<action>[.aspx]', 'Homepage:default');
 
 // Configure and run the application!
 $container->application->run();

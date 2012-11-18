@@ -1,3 +1,10 @@
+{define #wip}
+	<div class="work-in-progress">
+		{block|texy}
+		Tato sekce webu je zkopírovaná ze starého webu. Zatím jsme se nedostali k tomu udělat její novější verzi. Budeme rádi, když nám ji pomůžeš vylepšit. Uprav ji dle svých představ a dej "pull request na GitHubu":https://github.com/juniorinternet/website/pulls.
+		{/block}
+	</div>
+{/define}
 
 {define #mainNav}
 <div class="nav mainnav" role="navigation">
@@ -10,8 +17,7 @@
 	<span class="wip" title="V přípravě">O&nbsp;projektu</span>
 	<!-- <a href="/pro-media">Pro&nbsp;média</a> -->
 	<span class="wip" title="V přípravě">Pro&nbsp;média</span>
-	<!-- <a href="/kontakt">Kontakt</a> -->
-	<span class="wip" title="V přípravě">Kontakt</span>
+	<a n:href="contact">Kontakt</a>
 </div>
 {/define}
 
