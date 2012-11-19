@@ -6,7 +6,7 @@
 #
 common:
 	parameters:
-		urlToCompetitionSystem: "http://souteze.juniorinternet.cz"
+		urlToCompetitionSystem: "http://souteze.juniorinternet.cz/register/"
 
 	php:
 		date.timezone: Europe/Prague
