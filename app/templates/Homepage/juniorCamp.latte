@@ -1,0 +1,82 @@
+
+{block #title}Soutěže | Junior Internet{/block}
+
+{block #description}Soutěže pro mladé lidi do 18-ti let v tvorbě webových projektů.{/block}
+
+{block #content}
+<div role="banner" class="clearfix banner primary">
+	<div class="inner">
+		<span class="year">2013 &mdash; 14. ročník</span>
+		{*
+			elegantně vyřešit navigaci na homepage - nějaká pěkná šipka "rukou" by byla cool
+			<div class="homepage"><a n:href="default">na úvod</a></div>
+		*}
+
+		<h1><a n:href="default">Junior Internet</a></h1>
+		<h2>Junior Camp</h2>
+
+		{block|texy}
+		{*
+Co chceme rict?
+- den (více dnů) brutálního Internetu
+ - kompaktní
+ - česká špička jako mentoři
+ - vyzkoušej si práci v teamu
+ - projekt od začátku do konce
+ - (business!)
+
+Forma: škola na den 
+Forma: na tři dny sami
+
+- 3dny / 1 den?
+
+======
+Vyzkoušej si, jak vybudovat úspěšný internetový projekt od začátku do konce. <br>
+<a href="{$urlToCompetitionSystem}">Přihlaš se</a> na Junior Camp.
+
+Na vlastní kůži zaži teamový vývoj vlastního projektu, pod vedením mentorů z praxe.<br>Nauč se, jak používat technologie a postupy, které právě hýbou světem.
+*}
+			<p class="extraordinary-text">
+				Vyzkoušej si, jak vybudovat úspěšný internetový projekt od začátku do konce. <br>
+			</p>
+			<p>
+				Na vlastní kůži zažij teamový vývoj vlastního projektu, pod vedením mentorů z české špičky.<br>Nauč se, jak používat technologie a postupy, které právě hýbou světem.
+			</p>
+			<p>
+				Podívej se, z čeho <a href="">byli účastníci nadšení</a>, či se rovnou 
+				<a href="{$urlToCompetitionSystem}">přihlaš</a> na nejbližší Junior Camp.
+			</p>
+		{/block}
+		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
+		<p class="nav quicknav" role="navigation">
+			Také organizujeme:
+
+			<a n:href="competition">Soutěže</a>
+
+			<!-- <a href="/konference">Konference</a> -->
+			<span class="wip" title="V přípravě">Konference</span>
+		</p>
+
+		{include #mainNav}
+	</div>
+</div>
+
+<div role="main" class="content clearfix secondary competition">
+
+	<div class="inner">
+		<div class="win">
+			<h3>jednodenní Junior Camp na škole</h3>
+			<p>
+				Junior Camp může být i u tebe ve škole. 
+			</p>
+			<h3>třidenní Junior Camp </h3>
+			<p>
+				Na Junior Campu si ukážeme, jaké to je 
+			</p>
+
+			</p>
+		</div>
+	</div>
+
+</div><!-- / content -->
+
