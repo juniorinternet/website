@@ -1,0 +1,66 @@
+
+{block #title}Hledáme posilu! | Junior Internet{/block}
+
+{block #description}Hledáme posilu!{/block}
+
+{block #content}
+<div role="banner" class="clearfix banner primary small-banner">
+	<div class="inner">
+		<span class="year">2013 &mdash; 14. ročník</span>
+		{*
+			elegantně vyřešit navigaci na homepage - nějaká pěkná šipka "rukou" by byla cool
+			<div class="homepage"><a n:href="default">na úvod</a></div>
+		*}
+
+		<h1><a n:href="default">Junior Internet</a></h1>
+		<p>Již 14 let pomáháme mladým lidem poznávat internetové technologie, potkávat zajímavé lidi a prosadit se na internetu.</p>
+		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
+		<p class="nav quicknav" role="navigation">
+			Organizujeme:
+			<a n:href="competition">Soutěže</a>
+
+			<!-- <a href="/konference">Konference</a> -->
+			<span class="wip" title="V přípravě">Konference</span>
+
+			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
+			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
+		</p>
+
+		{include #mainNav}
+	</div>
+</div>
+
+<div role="main" class="content clearfix tertiary">
+
+	<div class="inner">
+		{block|texy}
+		<!--<h2>Hledáme posilu!</h2>-->
+		<div class="article">
+			<span class="date">17. 12. 2012</span>
+			<h3>Hledáme posilu!</h3>
+
+				Junior Internet, 14 let běžící soutěž pro webaře mladší než 19 let, hledá pomocníka. Potřebujeme pomoct s organizací soutěží, konference a s dalšími akcemi zaměřenými na vzdělávání mladých webových nadšenců.
+
+				Jsme jediná podobná akce ve střední Evropě a máme partnerské organizace na Slovensku a Maďarsku (kde soutěž také probíhá). Je to příležitost pomoci mladým lidem a naučit se, jak mohou podobné projekty fungovat. A samozřejmě poznat mnoho osobností českého webdesignu.
+
+				Potřebujeme člověka, který rád komunikuje, baví ho internet a má organizační talent. Rádi bychom spolupracovali dlouhodobě, potřebujeme něco okolo 15 hodin týdně. Práce může probíhat odkudkoli, kde je připojení k internetu. K dispozici ale máme i zázemí kanceláře. Odměna dle dohody.
+
+				Junior Internet je organizován převážně dobrovolníky, kteří jsou na webu jako ryba ve vodě a chtějí pomoci mladým lidem ukázat své dovednosti, či se něco nového z webdesignu naučit. 
+
+				Za dobu svého fungování Junior Internet pomohl vzhůru lidem, kteří založili SuperHosting.cz, Social Bakers, Školní Sešit a další a další. 
+
+				Pomoz nám ukázat svět webdesigu dalším a dalším generacím! Ozvi se <a href="mailto:vitek.jezek@juniorinternet.cz">Vítkovi</a>.
+
+
+		</div>
+		{/block}
+	</div>
+
+</div><!-- / content -->
+
+<div role="main" class="content clearfix secondary competition">
+
+	<div class="inner">
+	</div>
+</div>
+
