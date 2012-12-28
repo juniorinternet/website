@@ -13,19 +13,9 @@
 			<div class="homepage"><a n:href="default">na úvod</a></div>
 		*}
 
-		<h1><a n:href="default">Junior Internet</a></h1>
-		<p>Již 14 let pomáháme mladým lidem poznávat internetové technologie, potkávat zajímavé lidi a prosadit se na internetu.</p>
+		<p class="main-text">Právě čtete <strong>aktuality</strong><span class="line-break-mobile"></span> projektu <a n:href="default">Junior Internet</a></p>
+
 		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
-		<p class="nav quicknav" role="navigation">
-			Organizujeme:
-			<a n:href="competition">Soutěže</a>
-
-			<!-- <a href="/konference">Konference</a> -->
-			<span class="wip" title="V přípravě">Konference</span>
-
-			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
-			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
-		</p>
 
 		{include #mainNav}
 	</div>
@@ -35,7 +25,6 @@
 
 	<div class="inner">
 		{block|texy}
-		<h2>Aktuálně</h2>
 		<div class="article">
 			<span class="date">19. 11. 2012</span>
 			<h3>Spustili jsme registraci do 14. ročníku soutěží Junior Internet</h3>
