@@ -53,6 +53,46 @@
 	<script src="{$basePath}/js/modernizr-2.5.3-min.js"></script>
 	<script src="{$basePath}/js/picturefill.js"></script>
 
+	{var $ristrettoPort = 2013}
+	{var $ristrettoHost = $presenter->context->httpRequest->url->host.':'.$ristrettoPort}
+	{if
+		(
+			empty($presenter->context->parameters['ristretto'])
+		&&
+			$presenter->context->parameters['environment'] === 'development'
+		)
+	||
+		$presenter->context->parameters['ristretto'] === 'true'
+	}
+	<!-- ristretto reload snippet -->
+	<script src="http://{!$ristrettoHost}/socket.io/socket.io.js"></script>
+	<script>
+	(function() {
+		if(!window.io) {
+			console.warn('You shall turn Ristretto on.');
+		} else {
+			var socket = io.connect("http://{!$ristrettoHost}/");
+			socket.on("connect", function() {
+				console.log('Ristretto on.');
+				socket.on("reload stylesheets", function() {
+					var links = document.getElementsByTagName("link");
+					for(var i = 0; i < links.length; i++) {
+						var link = links[i];
+						if(link.rel === "stylesheet") {
+							link.href += "?";
+						}
+					}
+				});
+				socket.on("reload", function() {
+					window.location.reload();
+				});
+			});
+		}
+	})();
+	</script>
+	<!--/ ristretto reload snippet -->
+	{/if}
+
 	<!-- Typekit -->
 	<script n:syntax="off" type="text/javascript" src="//use.typekit.net/qra5ent.js"></script>
 	<script n:syntax="off" type="text/javascript">try{Typekit.load();}catch(e){}</script>
