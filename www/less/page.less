@@ -202,25 +202,23 @@ p.extraordinary-text + * {
 
 	.social {
 		margin: 10px 0;
-		background: #f6f7fa;
-		display: inline-block;
-		padding: 5px 5px 0;
-		.rounded(2px);
+		text-align: center;
 		a {
-			.font-size(24);
+			.font-size(36);
 			line-height: 1.5;
-			text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+			text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 			padding: 5px 8px 0;
-			&.twitter {
+			margin: 0 10px;
+			&.twitter:hover {
 				color: #58bbff;	}
-			&.facebook {
+			&.facebook:hover {
 				color: #3e5299; }
-			&.github {
+			&.github:hover {
 				color: @black; }
 		}
 	}
 	.github {
-		clear: both;
+		text-align: center;
 		padding-top: @gutterwidth;
 
 		.ss-icon {
@@ -229,13 +227,9 @@ p.extraordinary-text + * {
 			top: 2px; }
 
 	}
-	.quick-contact {
-		clear: both; }
 	.newsletter {
-		background: #f6f7fa;
-		margin: 10px 0;
-		padding: 7px 7px;
-		.rounded(2px);
+		text-align: center;
+		margin: 20px 0;
 
 		form {
 			margin-bottom: 0; }
@@ -255,10 +249,22 @@ p.extraordinary-text + * {
 		div,
 		p {
 			display: inline-block;
-			color: @primarycolor;
 			margin-bottom: 0; }
 		p {
 			margin-right: 5px; }
+	}
+
+	.quick-contact {
+		text-align: center;
+		margin: 50px 0;
+
+		p, a {
+			color: @white;
+		}
+
+		a {
+			margin-left: 20px;
+		}
 	}
 }
 
