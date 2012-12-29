@@ -44,6 +44,38 @@
 
 }
 
+.page-classic {
+	p.main-text {
+		.font-size(24);
+		font-family: "proxima-nova", @basefont;
+		font-weight: normal;
+		text-shadow: 0 2px 2px #2e3147;
+
+		a {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-decoration: none;
+
+			// this whole thing is a nasty hack
+
+			span {
+				font-weight: bold;
+				letter-spacing: 2px;
+				visibility: hidden;	}
+
+
+			&:after {
+				content: "";
+				display: block;
+				position: absolute;
+				left: 0; top: -15px;
+				background: transparent url("../img/small/juniorinternet.png") 0 0 no-repeat;
+				width: 184px; height: 47px; }
+		}
+	}
+}
+
 h2,
 .h2 {
 	.font-size(36);

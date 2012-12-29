@@ -37,8 +37,12 @@
 	p.main-text {
 		.font-size(36);
 
-		a {
-			top: -20px;
+		// Really nasty hacking
+		span {
+			letter-spacing: 5px; }
+
+		a:after {
+			top: -25px;
 			width: 288px; height: 73px;
 			background: transparent url("../img/juniorinternet-classic.png") 0 0 no-repeat; }
 	}
