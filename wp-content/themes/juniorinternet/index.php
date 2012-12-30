@@ -2,22 +2,33 @@
 
 <div role="banner" class="clearfix banner primary">
 	<div class="inner">
-		<span class="year">2013 &mdash; 14. roèník</span>
+		<span class="year">2013 &mdash; 14. roÄnÃ­k</span>
 		<h1>Junior Internet</h1>
-		<h2>Odrazovı mùstek <span class="line-break"></span>pro mladé internetové nadšence.</h2>
-		<p>Ji 14 let pomáháme mladım lidem poznávat internetové technologie, potkávat zajímavé lidi a prosadit se na internetu.</p>
+		<h2>OdrazovÃ½ mÅ¯stek <span class="line-break"></span>pro mladÃ© internetovÃ© nadÅ¡ence.</h2>
+		<p>JiÅ¾ 14 let pomÃ¡hÃ¡me mladÃ½m lidem poznÃ¡vat internetovÃ© technologie, potkÃ¡vat zajÃ­mavÃ© lidi a prosadit se na internetu.</p>
 		<p class="nav quicknav" role="navigation">
 			Organizujeme:
-			<a n:href="competition">Soutìe</a>
+			<a n:href="competition">SoutÄ›Å¾e</a>
 
 			<!-- <a href="/konference">Konference</a> -->
-			<span class="wip" title="V pøípravì">Konference</span>
+			<span class="wip" title="V pÅ™Ã­pravÄ›">Konference</span>
 
 			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
-			<span class="wip" title="V pøípravì">Junior&nbsp;Camp</span>
+			<span class="wip" title="V pÅ™Ã­pravÄ›">Junior&nbsp;Camp</span>
 		</p>
 
-		<?php //{include #mainNav} ?>
+                <div class="nav mainnav" role="navigation">
+                    <a href="news">AktuÃ¡lnÄ›</a>
+                    <!-- <a href="/predchozi-rocniky">PÅ™edchozÃ­&nbsp;roÄnÃ­ky</a>-->
+                    <span class="wip" title="V pÅ™Ã­pravÄ›">PÅ™edchozÃ­&nbsp;roÄnÃ­ky</span>
+                    <!-- <a href="/pribehy-vitezu">PÅ™Ã­bÄ›hy&nbsp;vÃ­tÄ›zÅ¯</a> -->
+                    <span class="wip" title="V pÅ™Ã­pravÄ›">PÅ™Ã­bÄ›hy&nbsp;vÃ­tÄ›zÅ¯</span>
+                    <!-- <a href="/o-projektu">O&nbsp;projektu</a> -->
+                    <span class="wip" title="V pÅ™Ã­pravÄ›">O&nbsp;projektu</span>
+                    <!-- <a href="/pro-media">Pro&nbsp;mÃ©dia</a> -->
+                    <span class="wip" title="V pÅ™Ã­pravÄ›">Pro&nbsp;mÃ©dia</span>
+                    <a href="contact">Kontakt</a>
+                </div>
 	</div>
 
 </div>
@@ -25,16 +36,16 @@
 <div role="main" class="content clearfix secondary competition">
 
 	<div class="inner">
-		<h2>Soutìe</h2>
-		<p class="extraordinary-text">Uka co v tobì je. Pøihlaš projekt do soutìe a vyhraj hodnotné ceny.</p>
-		<p>Junior Internet se mùe stát tvım odrazovım mùstkem, kterı tì vyhoupne do svìta úspìšnıch mladıch internetovıch webdesignerù, programátorù, internetovıch novináøù, èi náctiletıch podnikatelù. {* Podívej se na <a n:href="successStories">pøíbìhy vítìzù</a> a jak jim Junior Internet zmìnil ivot.*}</p>
-		<p>Pøihlášky konèí <strong>17. února 2013 o pùlnoci</strong>.</p>
+		<h2>SoutÄ›Å¾e</h2>
+		<p class="extraordinary-text">UkaÅ¾ co v tobÄ› je. PÅ™ihlaÅ¡ projekt do soutÄ›Å¾e a vyhraj hodnotnÃ© ceny.</p>
+		<p>Junior Internet se mÅ¯Å¾e stÃ¡t tvÃ½m odrazovÃ½m mÅ¯stkem, kterÃ½ tÄ› vyhoupne do svÄ›ta ÃºspÄ›Å¡nÃ½ch mladÃ½ch internetovÃ½ch webdesignerÅ¯, programÃ¡torÅ¯, internetovÃ½ch novinÃ¡Å™Å¯, Äi nÃ¡ctiletÃ½ch podnikatelÅ¯. {* PodÃ­vej se na <a n:href="successStories">pÅ™Ã­bÄ›hy vÃ­tÄ›zÅ¯</a> a jak jim Junior Internet zmÄ›nil Å¾ivot.*}</p>
+		<p>PÅ™ihlÃ¡Å¡ky konÄÃ­ <strong>17. Ãºnora 2013 o pÅ¯lnoci</strong>.</p>
 		<div class="categories clearfix">
 			<div class="category">
 				<h3>Junior <span>Web</span></h3>
 				<div class="category-about">
 					<div>
-						<p>Webové stránky, internetové sluby a projekty umístìné na Internetu.</p>
+						<p>WebovÃ© strÃ¡nky, internetovÃ© sluÅ¾by a projekty umÃ­stÄ›nÃ© na Internetu.</p>
 					</div>
 				</div>
 			</div>
@@ -42,7 +53,7 @@
 				<h3>Junior <span>Design</span></h3>
 				<div class="category-about">
 					<div>
-						<p>Design webovıch stránek èi jiné elektronické grafické práce.</p>
+						<p>Design webovÃ½ch strÃ¡nek Äi jinÃ© elektronickÃ© grafickÃ© prÃ¡ce.</p>
 					</div>
 				</div>
 			</div>
@@ -50,7 +61,7 @@
 				<h3>Junior <span>Text</span></h3>
 				<div class="category-about">
 					<div>
-						<p>Slohová práce na téma "internet a vzdìlávání".</p>
+						<p>SlohovÃ¡ prÃ¡ce na tÃ©ma "internet a vzdÄ›lÃ¡vÃ¡nÃ­".</p>
 					</div>
 				</div>
 			</div>
@@ -58,22 +69,22 @@
 				<h3>Junior <span>Erb</span></h3>
 				<div class="category-about">
 					<div>
-						<p>Obecnì prospìšné internetové projekty nebo stránky tıkající se místa vašeho bydlištì.</p>
+						<p>ObecnÄ› prospÄ›Å¡nÃ© internetovÃ© projekty nebo strÃ¡nky tÃ½kajÃ­cÃ­ se mÃ­sta vaÅ¡eho bydliÅ¡tÄ›.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<p>Letos udìlujeme také <strong>speciální ceny</strong> napøíè soutìemi Junior Web a Junior Erb:</p>
+		<p>Letos udÄ›lujeme takÃ© <strong>speciÃ¡lnÃ­ ceny</strong> napÅ™Ã­Ä soutÄ›Å¾emi Junior Web a Junior Erb:</p>
 		<ul class="special-awards special-list">
-			<li>Technologické zpracování</li>
-			<li>Uivatelskı proitek na mobilech</li>
-			<li>Nadace Vodafone za obecnì prospìšnı projekt</li>
-			<li>Cena veøejnosti</li>
+			<li>TechnologickÃ© zpracovÃ¡nÃ­</li>
+			<li>UÅ¾ivatelskÃ½ proÅ¾itek na mobilech</li>
+			<li>Nadace Vodafone za obecnÄ› prospÄ›Å¡nÃ½ projekt</li>
+			<li>Cena veÅ™ejnosti</li>
 		</ul>
-		<p><a href="http://souteze.juniorinternet.cz/register/" class="btn btn-extlarge btn-primary">Pøihlásit se do soutìe</a></p>
+		<p><a href="http://souteze.juniorinternet.cz/register/" class="btn btn-extlarge btn-primary">PÅ™ihlÃ¡sit se do soutÄ›Å¾e</a></p>
 		<p>
-			<a n:href="competition">další informace</a> |
-			<a n:href="competition#pravidla">pravidla soutìe &amp; prùbìh hodnocení</a>
+			<a n:href="competition">dalÅ¡Ã­ informace</a> |
+			<a n:href="competition#pravidla">pravidla soutÄ›Å¾e &amp; prÅ¯bÄ›h hodnocenÃ­</a>
 		</p>
 	</div>
 
@@ -82,8 +93,8 @@
 <div role="complementary" class="content clearfix tertiary">
 
 	<div class="inner">
-		<p class="extraordinary-text">Pøipravujeme Junior Camp ve školách.</p>
-		<p>Jeden den plnı novıch webovıch technologií a tımové práce ve tvé škole.</p>
+		<p class="extraordinary-text">PÅ™ipravujeme Junior Camp ve Å¡kolÃ¡ch.</p>
+		<p>Jeden den plnÃ½ novÃ½ch webovÃ½ch technologiÃ­ a tÃ½movÃ© prÃ¡ce ve tvÃ© Å¡kole.</p>
 	</div>
 
 </div><!-- / content -->
@@ -94,12 +105,12 @@
 		<h2>Konference</h2>
 		<div class="conference clearfix">
 			<div class="half left-side">
-				<p>Den plnı nezapomenutelnıch pøednášek, novıch kamarádù, zajímavıch rozhovorù a finále soutìí Junior Internet.</p>
-				<p>Registrace na konferenci se otevøou v únoru 2013. Vstup je zdarma.</p>
+				<p>Den plnÃ½ nezapomenutelnÃ½ch pÅ™ednÃ¡Å¡ek, novÃ½ch kamarÃ¡dÅ¯, zajÃ­mavÃ½ch rozhovorÅ¯ a finÃ¡le soutÄ›Å¾Ã­ Junior Internet.</p>
+				<p>Registrace na konferenci se otevÅ™ou v Ãºnoru 2013. Vstup je zdarma.</p>
 			</div>
 			<div class="half">
 				<div class="conference-date">
-					<i class="conference-day">23<span>.</span></i> <strong class="conference-year"><span>bøezen 2013</span></strong>
+					<i class="conference-day">23<span>.</span></i> <strong class="conference-year"><span>bÅ™ezen 2013</span></strong>
 				</div>
 			</div>
 		</div>

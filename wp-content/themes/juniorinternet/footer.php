@@ -30,7 +30,7 @@ EOT;
 <div role="complementary" class="content clearfix tertiary partners">
 
 	<div class="inner">
-		<h2><span>Dìkujeme našim partnerùm</span></h2>
+		<h2><span>DÄ›kujeme naÅ¡im partnerÅ¯m</span></h2>
 
 		<div class="partners-main clearfix">
                         <?php
@@ -57,7 +57,7 @@ EOT;
                         ?>
 		</div>
 
-		<?php /* <h3><span>Mediální partneøi</span></h3>
+		<?php /* <h3><span>MediÃ¡lnÃ­ partneÅ™i</span></h3>
 
 		<div class="partners-media clearfix">
 			{include 'partner.latte',
@@ -89,7 +89,7 @@ EOT;
                     <?php
 			partner(
 				$url = "http://www.ceskyzavinac.cz/",
-				$alt = "Èeskı zavináè",
+				$alt = "ÄŒeskÃ½ zavinÃ¡Ä",
 				$smallImage = "cesky-zavinac-small.png",
 				$desktopImage = "cesky-zavinac.png"
 			);
@@ -103,7 +103,7 @@ EOT;
 
 			partner(
 				$url = "http://www.jsi.cz/",
-				$alt = "Jednota školskıch informatikù",
+				$alt = "Jednota Å¡kolskÃ½ch informatikÅ¯",
 				$smallImage = "jsi-small.png",
 				$desktopImage = "jsi.png"
 			);
@@ -130,18 +130,18 @@ EOT;
 		<div class="newsletter">
 			<div>
 				<p>
-					Nepropásni ádné zajímavé akce a novinky
+					NepropÃ¡sni Å¾Ã¡dnÃ© zajÃ­mavÃ© akce a novinky
 				</p>
 				<div>
-					<input id="ml_signup_email" name="email" type="text" placeholder="tvùj@email">
+					<input id="ml_signup_email" name="email" type="text" placeholder="tvÅ¯j@email">
 					<input name="ml_groups[]" value="114319" type="hidden">
 				</div>
 				<div>
-					<button id="ml_subscribe">odebírat newsletter</button>
+					<button id="ml_subscribe">odebÃ­rat newsletter</button>
 				</div>
 			</div>
 		</div>
-		<p class="github"><span class="ss-icon">&#xF671;</span> Tento web nic neskrıvá. <a href="https://github.com/juniorinternet/website">Jeho zdrojovı kód najdete na Githubu</a>.</p>
+		<p class="github"><span class="ss-icon">&#xF671;</span> Tento web nic neskrÃ½vÃ¡. <a href="https://github.com/juniorinternet/website">Jeho zdrojovÃ½ kÃ³d najdete na Githubu</a>.</p>
 		<div class="quick-contact">
 			<p>Junior Internet 2000 - 2013 <a href="mailto:info@juniorinternet.cz">info@juniorinternet.cz</a></p>
 		</div>

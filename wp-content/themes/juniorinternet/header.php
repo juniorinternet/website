@@ -55,5 +55,5 @@
 
 <body <?php body_class('page-project') ?>>
     <!--[if lt IE 9]>
-        <p class="chromeframe">Pouíváte <strong>zastaralı</strong> prohlíeè, kterı nám neumoòuje poskytnout vám plnohodnotnı záitek z tohoto webu. Prosíme <a href="http://browsehappy.com/">aktualizujte</a> nebo si <a href="http://www.google.com/chromeframe/?redirect=true">aktivujte Google Chrome Frame</a>. Dìkujeme!</p>
+        <p class="chromeframe">PouÅ¾Ã­vÃ¡te <strong>zastaralÃ½</strong> prohlÃ­Å¾eÄ, kterÃ½ nÃ¡m neumoÅ¾Åˆuje poskytnout vÃ¡m plnohodnotnÃ½ zÃ¡Å¾itek z tohoto webu. ProsÃ­me <a href="http://browsehappy.com/">aktualizujte</a> nebo si <a href="http://www.google.com/chromeframe/?redirect=true">aktivujte Google Chrome Frame</a>. DÄ›kujeme!</p>
     <![endif]-->
