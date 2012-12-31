@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('classic'); ?>
 <div role="banner" class="clearfix banner primary small-banner">
 	<div class="inner">
 		<span class="year">2013 &mdash; 14. ročník</span>
