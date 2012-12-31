@@ -160,5 +160,7 @@ EOT;
 ML.feedback('http://juniorinternet.mailerlite.com/subscribe/join/s2l6n1/1');
 </script>
 
+<?php wp_footer(); ?>
+
 </body>
 </html>
