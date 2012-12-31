@@ -17,18 +17,7 @@
 			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
 		</p>
 
-                <div class="nav mainnav" role="navigation">
-                    <a href="news">Aktuálně</a>
-                    <!-- <a href="/predchozi-rocniky">Předchozí&nbsp;ročníky</a>-->
-                    <span class="wip" title="V přípravě">Předchozí&nbsp;ročníky</span>
-                    <!-- <a href="/pribehy-vitezu">Příběhy&nbsp;vítězů</a> -->
-                    <span class="wip" title="V přípravě">Příběhy&nbsp;vítězů</span>
-                    <!-- <a href="/o-projektu">O&nbsp;projektu</a> -->
-                    <span class="wip" title="V přípravě">O&nbsp;projektu</span>
-                    <!-- <a href="/pro-media">Pro&nbsp;média</a> -->
-                    <span class="wip" title="V přípravě">Pro&nbsp;média</span>
-                    <a href="contact">Kontakt</a>
-                </div>
+                <?php get_template_part( 'navigation' ); ?>
 	</div>
 
 </div>
@@ -81,7 +70,7 @@
 			<li>Nadace Vodafone za obecně prospěšný projekt</li>
 			<li>Cena veřejnosti</li>
 		</ul>
-		<p><a href="http://souteze.juniorinternet.cz/register/" class="btn btn-extlarge btn-primary">Přihlásit se do soutěže</a></p>
+		<p><a href="<?php echo get_option('urlToCompetitionSystem') ?>" class="btn btn-extlarge btn-primary">Přihlásit se do soutěže</a></p>
 		<p>
 			<a n:href="competition">další informace</a> |
 			<a n:href="competition#pravidla">pravidla soutěže &amp; průběh hodnocení</a>
