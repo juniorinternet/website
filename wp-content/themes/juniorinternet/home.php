@@ -1,13 +1,4 @@
 <?php get_header('classic'); ?>
-<div role="banner" class="clearfix banner primary small-banner">
-	<div class="inner">
-		<span class="year">2013 &mdash; 14. ročník</span>
-		
-		<p class="main-text">Co se <strong>aktuálně</strong> děje <span class="line-break-mobile"></span> v projektu <a href="<?php echo home_url() ?>"><span>Junior Internet</span></a></p>
-
-		<?php get_template_part( 'navigation' ); ?>
-	</div>
-</div>
 
 <div role="main" class="content clearfix tertiary">
 
