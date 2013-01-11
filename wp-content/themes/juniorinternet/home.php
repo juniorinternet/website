@@ -14,11 +14,17 @@
 			</div>
 			<?php endwhile;  ?>
 
+			<?php if (  $wp_query->max_num_pages > 1 ) : ?>
+					<div id="nav-below" class="navigation">
+						<div class="nav-next"><?php previous_posts_link('« Novější články'); ?></div>
+						<div class="nav-previous"><?php next_posts_link('Starší články »'); ?></div>
+					</div>
+			<?php endif; ?>
+
 			<?php else: get_template_part('404') ?>
 			<?php endif; ?>
 
 		</div>
-
 		<?php get_sidebar() ?>
 
 	</div>
