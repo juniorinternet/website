@@ -40,14 +40,14 @@ EOT;
                                 $smallImage = "nadace-vodafone-small.png",
                                 $desktopImage = "nadace-vodafone.png"
                             );
-                            
+
                             partner(
                                 $url = "http://www.nic.cz/",
-				$alt = "CZ.NIC",
-				$smallImage = "cznic-small.png",
-				$desktopImage = "cznic.png"   
-                            );
-                        
+								$alt = "CZ.NIC",
+								$smallImage = "cznic-small.png",
+								$desktopImage = "cznic.png"
+				            );
+
                             partner(
                                     $url = "http://flowmedia.cz/",
                                     $alt = "Flow Media",
@@ -57,31 +57,51 @@ EOT;
                         ?>
 		</div>
 
-		<?php /* <h3><span>Mediální partneři</span></h3>
+		<h2><span>Mediální partneři</span></h2>
 
 		<div class="partners-media clearfix">
-			{include 'partner.latte',
-				url => "",
-				alt => "Lupa.cz",
-				smallImage => "lupa-small.png",
-				desktopImage => "lupa.png"
-			}
+			<?php
+			partner(
+					$url = "http://www.lupa.cz/",
+					$alt = "Lupa.cz",
+					$smallImage = "lupa-small.png",
+					$desktopImage = "lupa.png"
+				);
 
-			{include 'partner.latte',
-				url => "",
-				alt => "Root.cz",
-				smallImage => "root-small.png",
-				desktopImage => "root.png"
-			}
+			partner(
+					$url = "http://www.root.cz/",
+					$alt = "Root.cz",
+					$smallImage = "root-small.png",
+					$desktopImage = "root.png"
+				);
 
-			{include 'partner.latte',
-				url => "",
-				alt => "programujte.com",
-				smallImage => "programujte-small.png",
-				desktopImage => "programujte.png"
-			}
+			partner(
+					$url = "http://www.slunecnice.cz/",
+					$alt = "Slunečnice.cz",
+					$smallImage = "slunecnice-small.png",
+					$desktopImage = "slunecnice.png"
+				);
+
+			partner(
+					$url = "http://www.ubuntu.cz/",
+					$alt = "Ubuntu.cz",
+					$smallImage = "ubuntu-small.png",
+					$desktopImage = "ubuntu.png"
+				);
+
+			?>
 		</div>
-		*/ ?>
+
+		<h3><span>Podporovatelé</span></h3>
+
+		<?php
+			partner(
+					$url = "http://www.peoplecomm.cz/",
+					$alt = "Peoplecomm",
+					$smallImage = "peoplecomm-small.png",
+					$desktopImage = "peoplecomm.png"
+				);
+			?>
 
 		<h3><span>Spolupracujeme</span></h3>
 
