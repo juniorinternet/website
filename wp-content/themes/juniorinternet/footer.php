@@ -54,6 +54,13 @@ EOT;
                                     $smallImage = "flow-small.png",
                                     $desktopImage = "flow.png"
                             );
+
+                            partner(
+                                    $url = "http://www.fakturoid.cz/",
+                                    $alt = "Fakturoid",
+                                    $smallImage = "fakturoid-small.png",
+                                    $desktopImage = "fakturoid.png"
+                            );
                         ?>
 		</div>
 
@@ -61,6 +68,14 @@ EOT;
 
 		<div class="partners-media clearfix">
 			<?php
+
+			partner(
+					$url = "http://respekt.ihned.cz/",
+					$alt = "Respekt.cz",
+					$smallImage = "respekt-small.png",
+					$desktopImage = "respekt.png"
+				);
+
 			partner(
 					$url = "http://www.lupa.cz/",
 					$alt = "Lupa.cz",
@@ -88,6 +103,7 @@ EOT;
 					$smallImage = "ubuntu-small.png",
 					$desktopImage = "ubuntu.png"
 				);
+
 
 			?>
 		</div>
