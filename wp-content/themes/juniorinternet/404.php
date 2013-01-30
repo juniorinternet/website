@@ -1,4 +1,4 @@
-<?php get_header('classic'); ?>
+<?php get_header(); ?>
 
 <div role="banner" class="clearfix banner primary">
 	<div class="inner">
