@@ -228,6 +228,7 @@ p.extraordinary-text+*{margin-top:1em;}
 .organise p .btn{margin-right:10px;}
 .organise p+*{margin-top:0.5em;}
 .jury-member{margin-top:15px;}.jury-member h4{margin-bottom:3px;}
+#clock{margin:20px auto;color:#981500;line-height:40px;}#clock span{font-size:40px;color:#fff;padding:0 3px 0 10px;position:relative;top:6px;}
 .chromeframe{background:#ccc;color:#000;padding:1em;}.chromeframe a{color:#393b4d;}
 .text-left{text-align:left;}
 .flash{background:#393b4d;padding:10px;font-size:15px;font-size:1.5rem;}
