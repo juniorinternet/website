@@ -186,6 +186,7 @@ table tbody tr:hover td,table tbody tr:hover th{background-color:#a8abbf;}
 .table-striped tbody tr:nth-child(odd) td,.table-striped tbody tr:nth-child(odd) th{background-color:#c5c7d5;}
 .banner{text-align:center;padding:24px;}.banner h2{font-size:18px;font-size:1.8rem;}
 .banner a{color:#ffffff;}
+.page-classic .content .article h2{text-align:left;}
 .page-classic p.main-text{clear:both;font-size:20px;font-size:2rem;margin-bottom:1em;font-weight:normal;}.page-classic p.main-text strong{color:#fff;font-weight:normal;}
 .primary{background-color:#393b4d;color:#ffffff;padding:24px;text-align:center;}.primary h2{text-shadow:0 2px 2px #2e3147;}
 .primary p{color:#c3c6d9;}
