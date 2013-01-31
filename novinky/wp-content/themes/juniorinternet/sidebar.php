@@ -8,7 +8,7 @@
 		<p>
 			<a class="btn btn-primary" href="<?php echo get_option('urlToCompetitionSystem') ?>">přihlásit projekt</a>
 			<span class="line-break-tablet"></span>
-			<a href="<?php echo home_url() ?>">více informací</a>
+			<a href="http://www.juniorinternet.cz/souteze">více informací</a>
 		</p>
 	</div>
 	<div class="organise">
