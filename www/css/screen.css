@@ -186,7 +186,7 @@ table tbody tr:hover td,table tbody tr:hover th{background-color:#a8abbf;}
 .table-striped tbody tr:nth-child(odd) td,.table-striped tbody tr:nth-child(odd) th{background-color:#c5c7d5;}
 .banner{text-align:center;padding:24px;}.banner h2{font-size:18px;font-size:1.8rem;}
 .banner a{color:#ffffff;}
-.page-classic .content .article h2{text-align:left;}
+.page-classic .content .article h2{font-size:1.6em;margin-top:2em;margin-bottom:0.3em;text-align:left;}
 .page-classic p.main-text{clear:both;font-size:20px;font-size:2rem;margin-bottom:1em;font-weight:normal;}.page-classic p.main-text strong{color:#fff;font-weight:normal;}
 .primary{background-color:#393b4d;color:#ffffff;padding:24px;text-align:center;}.primary h2{text-shadow:0 2px 2px #2e3147;}
 .primary p{color:#c3c6d9;}
@@ -229,6 +229,7 @@ p.extraordinary-text+*{margin-top:1em;}
 .organise p+*{margin-top:0.5em;}
 .jury-member{margin-top:15px;}.jury-member h4{margin-bottom:3px;}
 #clock{margin:20px auto;color:#981500;line-height:40px;}#clock span{font-size:40px;color:#fff;padding:0 3px 0 10px;position:relative;top:6px;}
+.visuallyhidden{overflow:hidden;position:absolute;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0;}
 .chromeframe{background:#ccc;color:#000;padding:1em;}.chromeframe a{color:#393b4d;}
 .text-left{text-align:left;}
 .flash{background:#393b4d;padding:10px;font-size:15px;font-size:1.5rem;}
