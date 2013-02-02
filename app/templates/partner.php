@@ -92,6 +92,13 @@ $partnersText = array(
 			'smallImage' => "ubuntu-small.png",
 			'desktopImage' => "ubuntu.png"
 		),
+
+		array(
+			'url' => "http://programujte.com/",
+			'alt' => "Programujte.com",
+			'smallImage' => "programujte-small.png",
+			'desktopImage' => "programujte.png"
+		),
 	),
 
 	'support' => array(
