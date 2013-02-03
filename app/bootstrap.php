@@ -61,9 +61,12 @@ $container->router[] = new Route('mediaroom/<name>.aspx', 'Homepage:media', Rout
 
 // pribehy vitezu / success stories
 $container->router[] = new Route('pribehy-vitezu', 'Homepage:successStories');
-$container->router[] = new Route('winners.aspx', 'Homepage:successStories', Route::ONE_WAY);
-$container->router[] = new Route('winners/year/<year>.aspx', 'Homepage:successStories', Route::ONE_WAY);
-$container->router[] = new Route('winners/competition/<competition>.aspx', 'Homepage:successStories', Route::ONE_WAY);
+
+// Předchozí ročníky
+$container->router[] = new Route('predchozi-rocniky', 'Homepage:previous');
+$container->router[] = new Route('winners.aspx', 'Homepage:previous', Route::ONE_WAY);
+$container->router[] = new Route('winners/year/<year>.aspx', 'Homepage:previous', Route::ONE_WAY);
+$container->router[] = new Route('winners/competition/<competition>.aspx', 'Homepage:previous', Route::ONE_WAY);
 
 // ostatni -> da se flash message, ze jsme ji smazali
 $container->router[] = new Route('<action>[.aspx]', 'Homepage:default');

@@ -1,5 +1,6 @@
+{var $body_class = "page-classic"}
 
-{block #title}Příběhy vítězů| Junior Internet{/block}
+{block #title}Příběhy vítězů | Junior Internet{/block}
 
 {block #description}Příběhy vítězů{/block}
 
@@ -12,43 +13,46 @@
 			<div class="homepage"><a n:href="default">na úvod</a></div>
 		*}
 
-		<h1><a n:href="default">Junior Internet</a></h1>
-		<p>Již 14 let pomáháme mladým lidem poznávat internetové technologie, potkávat zajímavé lidi a prosadit se na internetu.</p>
-		<p class="nav quicknav" role="navigation">
-			Organizujeme:
-			<a n:href="competition">Soutěže</a>
-
-			<!-- <a href="/konference">Konference</a> -->
-			<span class="wip" title="V přípravě">Konference</span>
-
-			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a> -->
-			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span>
-		</p>
+		<p class="main-text"><strong>Příběhy vítězů</strong> <span class="line-break-mobile"></span> projektu <a n:href="default"><span>Junior Internet</span></a></p>
 
 		{include #mainNav}
 	</div>
 </div>
 
-<div role="main" class="content clearfix tertiary">
+<div class="content clearfix tertiary">
 
 	<div class="inner">
+		<div class="inner-wrapper">
+			<div class="article" role="main">
 
-		{include #wip}
+{block|texy}
+Přečtěte si příběhy některých vítězů Junior Internetu.
 
-		{block|texy}
-		<h2>Příběhy vítězů</h2>
-		<div class="article">
-			Zde doplníme příběhy vítězů.
+<h2>Matouš Skála (vítěz Junior Web 2012)</h2>
+
+Poprvé jsem se o Junior Internetu dozvěděl ve škole. Účastnil jsem se několika ročníků,
+ale až v 16 letech jsem vytvořil projekt <a href="http://mystudentbook.com/">myStudentBook.com</a>, se kterým jsem se dostal do finále.
+
+To mě překvapilo a měl jsem z toho obrovskou radost.
+
+Díky Junior Internetu jsem měl možnost svůj projekt zviditelnit,
+získat motivaci pokračovat v tom, co dělám, potkat spoustu skvělých lidí, kteří mají stejné zájmy
+a také získat nějaké ty pracovní příležitosti.
+
+Aktuálně se věnuji hlavně vývoji Android aplikací na zakázku, stále rozvíjím svůj vítězný
+projekt myStudentBook.com a nedávno jsem spustil hudební přehrávač <a href="http://musixmashup.com/">MusixMashup.com</a>, kterým chci hlavně ukázat, co všechno jde dnes díky technologiím a volně přístupným API vytvořit.
+
+<h2>Další příběy budou přibývat.</h2>
+
+Jste bývalý vítěz a chcete přidat svůj příběh? "Napište nám ho":info@juniorinternet.cz!
+{/block}
+
+			</div>
 		</div>
-		{/block}
+
+		{include 'aside.latte'}
+
 	</div>
 
 </div><!-- / content -->
-
-<div role="main" class="content clearfix secondary competition">
-
-	<div class="inner">
-	</div>
-</div>
-
 

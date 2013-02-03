@@ -18,6 +18,7 @@ p,ol,ul,dl,address{font-size:14px;font-size:1.4rem;line-height:1.5em;}
 p+*{margin-top:1.5em;}
 small{font-size:14px;font-size:1.4rem;}
 ul,ol{margin:0 0 1.5em -24px;padding:0 0 0 24px;}
+ol{margin-left:0;}
 li ul,li ol{margin:0;font-size:16px;font-size:1.6rem;}
 blockquote{margin:0 0 1.5em -24px;padding-left:24px;border-left:2px solid #c5c7d5;font-family:Cambria,Georgia,Times,"Times New Roman";font-style:normal;}
 q{quotes:none;}
