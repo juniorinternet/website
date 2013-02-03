@@ -207,7 +207,7 @@ table tbody tr:hover td,table tbody tr:hover th{background-color:#a8abbf;}
 .partners h2,.partners h3{font-size:13px;font-size:1.3rem;margin-bottom:2em;}
 .partners h3{margin-top:2em;}
 .nav{font-size:14px;font-size:1.4rem;}.nav a{color:#d7d9ea;-webkit-transition:color 100ms ease-in;-moz-transition:color 100ms ease-in;-ms-transition:color 100ms ease-in;-o-transition:color 100ms ease-in;transition:color 100ms ease-in;text-decoration:none;border-bottom:1px solid #969cbc;margin-left:10px;}.nav a:hover,.nav a:active,.nav a:focus{color:#969cbc;}
-.nav span.wip{color:#969cbc;text-decoration:line-through;margin-left:10px;}
+.nav span.wip{color:#969cbc;text-decoration:none;margin-left:10px;}
 .conference-date{font-size:22px;font-size:2.2rem;}.conference-date .conference-day{line-height:2.3;font-weight:bold;font-style:normal;}
 p.extraordinary-text+*{margin-top:1em;}
 .footer{text-align:left;border-top:#c85b28;}.footer h3{font-size:14px;font-size:1.4rem;margin-bottom:.2em;}
