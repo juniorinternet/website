@@ -94,11 +94,19 @@ $partnersText = array(
 		),
 
 		array(
+			'url' => "http://webexpo.cz/",
+			'alt' => "WebExpo",
+			'smallImage' => "webexpo-small.png",
+			'desktopImage' => "webexpo.png"
+		),
+
+		array(
 			'url' => "http://programujte.com/",
 			'alt' => "Programujte.com",
 			'smallImage' => "programujte-small.png",
 			'desktopImage' => "programujte.png"
 		),
+
 	),
 
 	'support' => array(
