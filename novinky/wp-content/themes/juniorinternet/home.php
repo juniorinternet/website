@@ -4,6 +4,8 @@
 
 	<div class="inner">
 
+		<div class="inner-wrapper">
+
 			<?php if ( have_posts() ): while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class('article'); ?>>
 				<span class="date"><?php the_time(get_option('date_format')) ?></span>
@@ -22,7 +24,8 @@
 			<?php else: get_template_part('404') ?>
 			<?php endif; ?>
 
-			<?php get_sidebar() ?>
+		</div>
+		<?php get_sidebar() ?>
 
 	</div>
 
