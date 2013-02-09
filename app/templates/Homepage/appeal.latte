@@ -1,0 +1,51 @@
+{var $body_class = "page-appeal"}
+
+{block #specialPath}{$basePath}/svet-potrebuje-dalsiho-jobse{/block}
+
+{block #title}Svět potřebuje dalšího Jobse | Junior Internet{/block}
+
+{block #content}
+<div id="fb-root"></div>
+
+<script n:syntax="off">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=161312140685279";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div role="banner" class="clearfix banner primary">
+	<div class="inner">
+		<span class="year">2013 &mdash; 14. ročník</span>
+
+		<h1 class="logo"><a n:href="default">Junior Internet</a></h1>
+
+		<p class="appeal-intro">Výzva všem webařům mladším 19 let</p>
+		<h2>Svět potřebuje dalšího Jobse.</h2>
+
+		<div class="appeal-social-wrapper">
+			<div class="appeal-social">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="junior_internet" data-lang="cs" data-hashtags="ji2013">Tweet</a>
+				<script n:syntax="off">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="appeal-social">
+				<div class="fb-like" data-send="true" data-layout="button_count" data-width="250" data-show-faces="false" data-action="recommend"></div>
+			</div>
+		</div>
+
+		<p class="appeal-text">Hledáme člověka, který má internet v krvi. Který má chuť a vůli ukázat světu, jak skvělé internetové projekty vznikají v Česku.</p>
+
+		<p class="appeal-text">Již 14 let hledáme mladé talenty, kteří budou udávat směr. Pomohli jsme nastartovat již několik neskutečných kariér. A nyní hledáme dalšího vítěze, který má chuť a vůli změnit svět.</p>
+
+		<p class="appeal-text">Český internet ho potřebuje. Pomozte nám ho najít, sdílejte tuto výzvu.</p>
+
+		<p class="appeal-text">Jsi to právě ty? <a href="{$basePath}/souteze#competition-details" class="btn btn-extlarge btn-secondary">přihlaš se do soutěže</a> Přihlášky končí 24. 2. 2013.</p>
+		<p class="appeal-text">Připoj se ke jménům jako Jan Řežáb, Zdeněk Cendra či Jakub Rož, kteří s námi svou hvězdnou dráhu začali.</p>
+
+		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
+
+		{include #mainNav}
+	</div>
+
+</div>

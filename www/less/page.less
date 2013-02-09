@@ -39,6 +39,31 @@
 	}
 }
 
+.page-appeal {
+	h2 {
+		clear: both;
+		.font-size(21);
+		margin-top: 20px; }
+
+	.appeal-intro {
+		clear: both; }
+
+	.appeal-text {
+		.font-size(16);
+		text-align: left;
+		margin-bottom: 1em; }
+
+
+	.nav,
+	.year {
+		opacity: 0.4;
+		.transition(opacity 0.5s ease);
+
+		&:hover {
+			opacity: 1; }
+	}
+}
+
 .primary {
 	background-color: @primarycolor;
 	color: @primarytextmain;
@@ -133,18 +158,6 @@
 		list-style-position: inside;
 		margin-top: 1em; }
 
-}
-
-.btn-extlarge {
-	padding : 11px 22px;
-	.font-size(14);
-	.rounded(2px);
-	text-shadow: 0 -2px 1px #272934;
-	.transition(background-color 100ms ease-in);
-	&:hover,
-	&:focus,
-	&:active {
-		background-color: lighten(@primarycolor, 10%); }
 }
 
 .extraordinary-text {
@@ -340,6 +353,9 @@ p.extraordinary-text + * {
 	margin : -1px;
 	padding : 0;
 	border : 0; }
+
+.centered {
+	text-align: center !important; }
 
 /* ==========================================================================
    Chrome Frame prompt

@@ -101,8 +101,8 @@
 	<meta property="og:title" content="{include #title}">
 	<meta property="og:description" content="{include #description}">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.juniorinternet.cz/">
-	<meta property="og:image" content="{$baseUri}/img/og-junior-internet.png">
+	<meta property="og:url" content="{block #specialPath}http://www.juniorinternet.cz{/block}">
+	<meta property="og:image" content="{$baseUri}/img/og_junior_internet.jpg">
 </head>
 {default $body_class = "page-project"}
 <body class="clearfix {$body_class}" n:inner-block="body">

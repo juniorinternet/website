@@ -34,7 +34,6 @@ text-decoration : none;
 
 &:visited,
 &:hover {
-color : @buttoncolor;
 text-decoration : none; }
 }
 
@@ -92,14 +91,29 @@ color : @white; }
 // primary
 
 .btn-primary {
-background: @primarycolor;
-border-color : darken(@primarycolor, 15%);
-border-bottom-color : #272934;
-color : @white;
+	background: @primarycolor;
+	border-color : darken(@primarycolor, 15%);
+	border-bottom-color : #272934;
+	text-shadow: 0 -2px 1px #272934;
 
-&:visited,
-&:hover {
-color : @white; }
+	&:hover,
+	&:focus,
+	&:active {
+		color : @white;
+		background-color: lighten(@primarycolor, 10%); }
+}
+
+.btn-secondary {
+	background: darken(@secondarycolor, 15%);
+	border-color : darken(@secondarycolor, 15%);
+	color : @white;
+	text-shadow: 0 -2px 1px darken(@secondarycolor, 30%);
+
+	&:hover,
+	&:focus,
+	&:active {
+		color : @white;
+		background-color: darken(@secondarycolor, 10%); }
 }
 
 // success
@@ -120,10 +134,10 @@ border-bottom-color : darken(@warningcolor, 20%); }
 
 .btn-extlarge {
 padding : 11px 22px;
-.font-size(21);
-.rounded(4px);
-font-family: "proxima-nova", @basefont;
-text-shadow: 0 -2px 1px #272934; }
+.font-size(14);
+.rounded(2px);
+.transition(background-color 100ms ease-in);
+font-family: "proxima-nova", @basefont; }
 
 .btn.btn-large {
 *padding-top : 7px;
