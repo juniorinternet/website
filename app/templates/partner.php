@@ -117,6 +117,13 @@ $partnersText = array(
 			'smallImage' => "peoplecomm-small.png",
 			'desktopImage' => "peoplecomm.png"
 		),
+
+		array(
+			'url' => "http://www.skaut.cz/",
+			'alt' => "Skaut",
+			'smallImage' => "skaut-small.png",
+			'desktopImage' => "skaut.png"
+		),
 	),
 
 	'others' => array(
