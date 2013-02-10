@@ -69,7 +69,7 @@ $container->router[] = new Route('winners/year/<year>.aspx', 'Homepage:previous'
 $container->router[] = new Route('winners/competition/<competition>.aspx', 'Homepage:previous', Route::ONE_WAY);
 
 // Výzva
-$container->router[] = new Route('svet-potrebuje-dalsiho-jobse', 'Homepage:appeal');
+$container->router[] = new Route('hledame-dalsiho-viteze', 'Homepage:appeal');
 
 // ostatni -> da se flash message, ze jsme ji smazali
 $container->router[] = new Route('<action>[.aspx]', 'Homepage:default');
