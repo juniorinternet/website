@@ -8,8 +8,12 @@
 
 
 $partnersDefinition = array(
+	'general'    => array(
+		'name' => 'Děkujeme našim generálním partnerům',
+		'headerTag' => 'h2',
+	),
 	'main'    => array(
-		'name' => 'Děkujeme našim partnerům',
+		'name' => 'Partneři',
 		'headerTag' => 'h2',
 	),
 	'media'   => array(
@@ -27,7 +31,7 @@ $partnersDefinition = array(
 );
 
 $partnersText = array(
-	'main' => array(
+	'general' => array(
 		array(
 			'url' => "http://nadacevodafone.cz/",
 			'alt' => "Nadace Vodafone",
@@ -41,6 +45,14 @@ $partnersText = array(
 			'desktopImage' => "cznic.png"
 		),
 
+		array(
+			'url' => "http://www.vsem.cz/",
+			'alt' => "VŠEM",
+			'smallImage' => "vsem-small.png",
+			'desktopImage' => "vsem.png"
+		),
+	),
+	'main' => array(
 		array(
 			'url' => "http://flowmedia.cz/",
 			'alt' => "Flow Media",
