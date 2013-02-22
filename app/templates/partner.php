@@ -66,6 +66,14 @@ $partnersText = array(
 			'smallImage' => "fakturoid-small.png",
 			'desktopImage' => "fakturoid.png"
 		),
+
+		array(
+			'url' => "http://www.geekshop.cz/",
+			'alt' => "Geekshop",
+			'smallImage' => "geekshop-small.png",
+			'desktopImage' => "geekshop.png"
+		),
+
 	),
 
 	'media' => array(
