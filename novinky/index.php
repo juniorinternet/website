@@ -13,5 +13,9 @@
  */
 define('WP_USE_THEMES', true);
 
+require_once ('../www/consts.php');
+
+require_once (LIBS_DIR. '/autoload.php');
+
 /** Loads the WordPress Environment and Template */
 require('./wp-blog-header.php');
