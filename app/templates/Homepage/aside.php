@@ -6,7 +6,7 @@
 		<h4>Soutěže</h4>
 		<p>Ukaž co v tobě je. Přihlaš projekt do soutěže a vyhraj hodnotné ceny.</p>
 		<p>
-			<a class="btn btn-primary" href="<?php $url = isset($urlToCompetitionSystem) ?: get_option('urlToCompetitionSystem'); echo $url  ?>">přihlásit projekt</a>
+			<a class="btn btn-primary" href="<?php $url = $urlToCompetitionSystem ?: get_option('urlToCompetitionSystem'); echo $url  ?>">přihlásit projekt</a>
 			<span class="line-break-tablet"></span>
 			<a href="<?php echo netteLink('Homepage:competition') ?>">více informací</a>
 		</p>
