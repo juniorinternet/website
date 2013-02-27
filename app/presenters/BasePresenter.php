@@ -17,6 +17,8 @@ abstract class BasePresenter extends Nette\Application\UI\Presenter
 		$this->template->registerHelper('texy', callback($texy, 'process'));
 
 		$this->template->urlToCompetitionSystem = $this->context->parameters['urlToCompetitionSystem'];
+		
+		NetteLink::$function = callback($this, 'link');
 	}
 
 }
