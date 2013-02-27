@@ -13,5 +13,7 @@
  */
 define('WP_USE_THEMES', true);
 
+require_once ('../www/consts.php');
+
 /** Loads the WordPress Environment and Template */
 require('./wp-blog-header.php');
