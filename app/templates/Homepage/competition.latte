@@ -16,7 +16,7 @@
 		<h2>Soutěže 2013</h2>
 
 		{block|texy}
-			<p class="extraordinary-text">Ukaž co v tobě je. <a href="{$urlToCompetitionSystem}">Přihlaš projekt do soutěže</a> a proslav se.</p>
+			<p class="extraordinary-text">Ukaž co v tobě je. Přihlaš projekt do soutěže a proslav se.</p>
 			<p>Junior Internet se může stát tvým odrazovým můstkem, který tě vyhoupne do světa úspěšných mladých internetových webdesignerů, programátorů, internetových novinářů, či náctiletých podnikatelů.{*Podívej se na <a n:href="successStories">příběhy vítězů</a> a jak jim Junior Internet změnil život.*}</p>
 		{/block}
 		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
@@ -39,15 +39,7 @@
 	<div class="inner">
 		{block|texy}
 		<h2>Soutěžní kategorie</h2>
-		<p>Přihlášky do kategorií Junior Text a Junior Erb skončily 24. února 2013</p>
-		<p>Avšak přihlášky do kategorií Junior Web a Junior Design končí <strong>27. února 2013 o půlnoci</strong>.</p>
-		<div id="clock">
-			<strong>Do uzávěrky přihlášek zbývá:</strong>
-			<span id="daysLeft"></span> dny
-			<span id="hours"></span> h
-			<span id="minutes"></span> min
-			<span id="seconds"></span> s
-		</div>
+		<p><strong>Přihlášky byly uzavřeny 27. února 2013.</strong></p>
 		{/block}
 		<div class="categories clearfix">
 			<div class="category">
@@ -99,7 +91,7 @@
 			<li>Nadace Vodafone za obecně prospěšný projekt</li>
 			<li>Cena veřejnosti</li>
 		</ul>
-		<p><a href="{$urlToCompetitionSystem}" class="btn btn-extlarge btn-primary">Přihlásit se do soutěže</a></p>
+		{*<p><a href="{$urlToCompetitionSystem}" class="btn btn-extlarge btn-primary">Přihlásit se do soutěže</a></p>*}
 		<p>
 			<a href="#pravidla">pravidla soutěže &amp; průběh hodnocení</a> | Podrobné informace ohledně <a href="{$basePath}/files/junior_erb_2013.pdf">Junior Erbu pro školy</a> [PDF]
 		</p>

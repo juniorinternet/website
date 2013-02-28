@@ -151,7 +151,6 @@
 <script src="{$basePath}/js/plugins.js"></script>
 <script src="{$basePath}/js/script.js"></script>
 <script src="{$basePath}/js/helper.js"></script>
-<script src="{$basePath}/js/jquery.countdown.min.js"></script>
 <script src='http://juniorinternet.mailerlite.com/js/mailerlite.js' type='text/javascript'></script>
 <script n:syntax="off" type="text/javascript" charset="utf-8">
 ML.feedback('http://juniorinternet.mailerlite.com/subscribe/join/s2l6n1/1');
@@ -173,27 +172,6 @@ ML.feedback('http://juniorinternet.mailerlite.com/subscribe/join/s2l6n1/1');
 </script>
 
 {/if}
-
-<script type="text/javascript" n:syntax="off">
-$(function() {
-	  $('div#clock').countdown("2013/02/28", function(event) {
-	    var $this = $(this);
-	    switch(event.type) {
-	      case "seconds":
-	      case "minutes":
-	      case "hours":
-	      case "days":
-	      case "weeks":
-	      case "daysLeft":
-	        $this.find('span#'+event.type).html(event.value);
-	        break;
-	      case "finished":
-	        $this.hide();
-	        break;
-	    }
-	  });
-	});
-</script>
 
 </body>
 </html>
