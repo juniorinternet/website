@@ -144,6 +144,20 @@ $partnersText = array(
 			'smallImage' => "skaut-small.png",
 			'desktopImage' => "skaut.png"
 		),
+
+		array(
+			'url' => "http://www.vse.cz/",
+			'alt' => "Vysoká Škola Ekonomická",
+			'smallImage' => "vse-small.png",
+			'desktopImage' => "vse.png"
+		),
+
+		array(
+			'url' => "http://www.csas.cz/",
+			'alt' => "Česká spořitelna",
+			'smallImage' => "cs-small.png",
+			'desktopImage' => "cs.png"
+		)
 	),
 
 	'others' => array(
