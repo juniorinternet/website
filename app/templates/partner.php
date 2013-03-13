@@ -12,6 +12,10 @@ $partnersDefinition = array(
 		'name' => 'Děkujeme našim generálním partnerům',
 		'headerTag' => 'h2',
 	),
+	'vse'    => array(
+		'name' => 'Konferenci spolupořádá',
+		'headerTag' => 'h2',
+	),
 	'main'    => array(
 		'name' => 'Partneři',
 		'headerTag' => 'h2',
@@ -52,13 +56,17 @@ $partnersText = array(
 			'desktopImage' => "vsem.png"
 		),
 	),
-	'main' => array(
+
+	'vse' => array(
 		array(
-			'url' => "http://www.vse.cz/",
+			'url' => "http://fis.vse.cz/",
 			'alt' => "Vysoká Škola Ekonomická",
 			'smallImage' => "vse-small.png",
 			'desktopImage' => "vse.png"
 		),
+	),
+
+	'main' => array(
 
 		array(
 			'url' => "http://flowmedia.cz/",
