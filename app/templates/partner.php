@@ -54,6 +54,13 @@ $partnersText = array(
 	),
 	'main' => array(
 		array(
+			'url' => "http://www.vse.cz/",
+			'alt' => "Vysoká Škola Ekonomická",
+			'smallImage' => "vse-small.png",
+			'desktopImage' => "vse.png"
+		),
+
+		array(
 			'url' => "http://flowmedia.cz/",
 			'alt' => "Flow Media",
 			'smallImage' => "flow-small.png",
@@ -143,13 +150,6 @@ $partnersText = array(
 			'alt' => "Skaut",
 			'smallImage' => "skaut-small.png",
 			'desktopImage' => "skaut.png"
-		),
-
-		array(
-			'url' => "http://www.vse.cz/",
-			'alt' => "Vysoká Škola Ekonomická",
-			'smallImage' => "vse-small.png",
-			'desktopImage' => "vse.png"
 		),
 
 		array(
