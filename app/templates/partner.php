@@ -55,6 +55,7 @@ $partnersText = array(
 			'smallImage' => "vsem-small.png",
 			'desktopImage' => "vsem.png"
 		),
+
 	),
 
 	'vse' => array(
@@ -67,6 +68,13 @@ $partnersText = array(
 	),
 
 	'main' => array(
+
+		array(
+			'url' => "http://www.active24.cz/",
+			'alt' => "Active 24",
+			'smallImage' => "small-active24.png",
+			'desktopImage' => "active24.png"
+		),
 
 		array(
 			'url' => "http://flowmedia.cz/",
