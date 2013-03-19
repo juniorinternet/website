@@ -173,7 +173,14 @@ $partnersText = array(
 			'alt' => "Česká spořitelna",
 			'smallImage' => "cs-small.png",
 			'desktopImage' => "cs.png"
-		)
+		),
+
+		array(
+			'url' => "http://www.rozectise.cz/",
+			'alt' => "Rozečti.se",
+			'smallImage' => "small-rozectise.png",
+			'desktopImage' => "rozectise.png"
+		),
 	),
 
 	'others' => array(
