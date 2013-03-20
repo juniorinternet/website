@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * pro výpis partnerů z jednoho místa
  * (používá se v app a na blogu)
