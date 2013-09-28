@@ -96,6 +96,12 @@ $partnersText = array(
 			'smallImage' => "geekshop-small.png",
 			'desktopImage' => "geekshop.png"
 		),
+		array(
+			'url' => "http://www.jic.cz/",
+			'alt' => "Jihomoravské inovační centrum",
+			'smallImage' => "jic-small.png",
+			'desktopImage' => "jic.png"
+		),
 
 	),
 
