@@ -102,6 +102,12 @@ $partnersText = array(
 			'smallImage' => "jic-small.png",
 			'desktopImage' => "jic.png"
 		),
+		array(
+			'url' => "https://prostor.erasvet.cz/",
+			'alt' => "Era svět",
+			'smallImage' => "era-small.png",
+			'desktopImage' => "era.png"
+		),
 
 	),
 
