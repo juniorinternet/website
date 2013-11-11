@@ -1,0 +1,122 @@
+
+{block #title}Barcamp - 8. 12. 2013 | Junior Internet{/block}
+{block #head}
+<style n:syntax="double">
+	@media only screen and (min-width:768px) {
+		.barcamp-small { float: left; width: 38%; }
+		.barcamp-big { float: left; width: 61%; }
+	}
+	.barcamp-big .twitter {font-weight: bold}
+</style>
+{/block}
+{block #description}Barcamp na téma: Jak jsem začínal/a. 8. 12. 2013 v Pražském HUBu{/block}
+
+{block #content}
+
+<div role="banner" class="clearfix banner primary">
+	<div class="inner">
+		<span class="year">2014 &mdash; 15. ročník</span>
+		<h1 class="logo"><a n:href="default">Junior Internet</a></h1>
+		<h2>Barcamp: „Jak jsem začínal“</h2>
+
+		{block|texy}
+			<p class="extraordinary-text">Každý nějak začínal.</p>
+			<p>
+				 Zajímá tě, s čím se potýkali úspěšní čeští webdesignéři, podnikatelé či novináři? Nebo si chceš jen přijít popovídat či se dozvědět něco nového? Přijď na Barcamp!
+			</p>
+		{/block}
+		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
+
+		{include #mainNav}
+	</div>
+</div>
+<div role="main" class="content clearfix secondary">
+	<div class="inner">
+		<div class="conference clearfix">
+			<div class="half left-side">
+				{block|texy}
+				<p>Celodenní netradiční ne/konference v prostorách <a href="">Pražského HUBu</a>.</p>
+				<p><strong>Vstup je zdarma pro předem registrované.</strong></p>
+				<p>
+					<a href="#" class="btn btn-large btn-primary">Zaregistrovat se</a>
+				</p>
+				{/block}
+			</div>
+			<div class="half">
+				<div class="conference-date">
+					<i class="conference-day" style="background: #BBB">8<span>.</span></i> <strong class="conference-year"><span>prosinec 2013</span></strong>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div role="main" class="content clearfix tertiary" style="text-align: left">
+	<div class="inner">
+		<div class="barcamp-small"><div style="padding-right: 30px; padding-bottom: 30px">
+			<h2>Průběh Barcampu</h2>
+			<p>
+				Program na letošní Pražský Barcamp bude dvojího druhu. Pozvali jsme <a href="#ref-speakers">zajímavé osobnosti českého webového rybníčku</a>. Budou povídat o tom, jak začínali, co se naučili, čím prošli. Co by zopakovali a čemu by se rádi vyhnuli. Co by rádi věděli před pár lety. Co řešili dříve a co řeší nyní.
+			</p>
+			<p>
+				Kromě toho bude dostatek prostoru na jiný druh programu. Od každého z nás, od účastníků. Na tzv. <em>Diskuzní kroužky</em>. U vchodu bude obří tabule. Na tu bude moci kdokoliv napsat námět na přednášku. Nebo jen téma, které ho zajímá, ale třeba o kterém moc neví. Ostatní účastníci budou o navržených tématech hlasovat. Přímo na místě. Úspěšná témata tak dostanou prostor k probrání.
+			</p>
+			<p>
+				Obdobně jsme pořádali Barcamp Praha 2010. Dle <a href="http://blog.jarmilaklimkova.cz/post/1515250637/barcamp-praha-slevomat-party">ohlasů</a> se <a href="http://www.jiri-kolarik.cz/clanek/jak-jsem-byl-na-prazskem-barcampu/">povedl</a>.
+			</p>
+
+			<h2>Harmonogram</h2>
+			<p>
+				HUB bude otevřen od 9:00; začneme se sjíždět a rozehřívat. V 9:30 začne program; mezi 12:00 a 13:00 budeme jíst a poté budeme dále pokračovat. Akce skončí v 18:00 volným přesunutím do Andělských hospod a restaurací.
+			</p>
+
+			<h2>Junior Internet? WTF?</h2>
+			<p>
+				Konference je pod hlavičkou Junior Internetu - sdružení, které se již 15. let snaží pomáhat mladým webařům při jejich cestě za úspěchem. 
+			</p>
+			<p>
+				Není se čeho bát - <b>účast není věkově omezená</b>. Jen určitá kapacita je vyhrazena pro lidi do 18 let včetně.
+			</p>
+
+
+		</div></div>
+		<div class="barcamp-big">
+
+			<h2>Jak se přihlásit</h2>
+			<p>
+				Kapacita HUBu je omezená na 130 lidí. Posledních 30 lidí z toho je vyhrazeno pro účastníky mladší 18 let (tato rezervace platí do 2. 12. 2013). Prvních 100 míst je pro „každého“. Tedy pro každého, který nám do 7 dnů od přihlášení napíše mail (na <a href="mailto:barcamp@juniorinternet.cz">barcamp@juniorinternet.cz</a>) s odpovědmi na dvě otázky:
+			</p>
+			<ul style="margin: 0">
+				<li>co se chce dozvědět (či co chce zažít) na Barcampu; zkrátka <em>jaká je motivace k strávení celého volného dne někde zavřený v místnosti</em>,</li>
+				<li>o jakém tématu by mohl mluvit v rámci Diskuzních kroužků</li>
+			</ul>
+			<p>
+				Chceme si tak zajistit, aby na Barcamp přišli jen ti, kteří mají zájem přispět do diskuze a aktivně se zúčastnit.
+			</p>
+			<p>
+				Pokud už bude Barcamp naplněn, nezoufejte a zaregistrujte se na čekací listinu. Je pravděpodobné, že se na vás ještě dostane. Pokud účastník nepošle do 7 dnů mail, vyřazujeme jej z registrace. Navíc 2.12.2013 uvolníme volná místa, které nezaplnili mladší účastníci.
+			</p>
+
+			<h2>Občerstvení a jídlo</h2>
+			<p>
+				Jako na prvním Pražském Barcampu i letos bychom rádi sdíleli nejen poznatky a zkušenosti, ale také jídlo. Každý účastník přinese něco na oběd - jídlo se rozloží po stolech a kolem poledne se <em>začne hodovat</em>. Kdo nic nepřinese, bude vyslán do nejbližšího obchodu, bude označen jako nejedlík a nebo se může vydat najít se sám do nejbližší restaurace či hospody. Ale nebude to ono.
+			</p>
+
+			<h2 id="ref-speakers">Svojí účast také potvrdili:</h2>
+			<ul>
+				<li><a class="twitter" href="http://twitter.com/DavidGrudl">@DavidGrudl</a> (David Grudl) - spisovatel programů, autor <a href="http://nette.org">Nette Frameworku</a>, <a href="http://dibiphp.com">dibi</a> či <a href="http://texy.info">Texy!</a></li>
+				<li><a class="twitter" href="http://twitter.com/DavidSmehlik">@DavidSmehlik</a> (David Šmehlík) - podnikatel, <a href="http://www.fleveo.cz">založil a vedl Fleveo</a> (již předáno), aktuálně se věnuje <a href="http://www.fleveo.cz">druidly</a>.</li>
+				<li><a class="twitter" href="http://twitter.com/JakubRoz">@JakubRoz</a> (Jakub Rož) - mladý podnikatel, založil a vede <a href="http://FlowMedia.cz">Flow Media</a>. Vítěz 11. ročníku Junior Internetu</li>
+				<li><a class="twitter" href="http://twitter.com/Janovsky">@Janovsky</a> (Dušan Janovský) - založil <a href="http://jakpsatweb.cz">JakPsatWeb.cz</a>, <a href="http://cs.wikipedia.org/wiki/Dušan_Janovský">střídavě pracuje</a> pro <a href="http://www.seznam.cz">Seznam.cz</a>.</li>
+				<li><a class="twitter" href="http://twitter.com/PavelFuchs">@PavelFuchs</a> (Pavel Fuchs) - skaut, podnikatel, vede <a href="http://mangoweb.cz">manGoweb</a></li>
+				<li><a class="twitter" href="http://twitter.com/Signalizer">@Signalizer</a> (Jiří Sekera) - pracuje v <a href="http://refresh.cz">refresh.cz</a> mimo jiné jako UX designer. Organizuje <a href="http://creativemornings.com/cities/prg">Creative Mornings Prague</a></li>
+				<li><a class="twitter" href="http://twitter.com/ViktorMastnik">@ViktorMastnik</a> (Viktor Mastník) - podnikatel, bývalý ředitel digitální divize McCann Erickson. Zakladatel <a href="http://ticketon.cz">Ticketon</a>.</li>
+				<li><a class="twitter" href="http://twitter.com/Zdendac">@Zdendac</a> (Zdeněk Cendra) - zakladatel <a href="http://cdn77.com">CDN77.com</a>, <a href="http://superhosting.cz">superhosting.cz</a> a spoluzakladatel <a href="http://Peering.cz">Peering.cz</a>. Vítěz 3. ročníku Junior Internetu</li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+
+
