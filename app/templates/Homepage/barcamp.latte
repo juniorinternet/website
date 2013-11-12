@@ -26,7 +26,12 @@
 			</p>
 		{/block}
 		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
-
+		<p class="nav quicknav" role="navigation">
+			Také organizujeme:
+			<a n:href="competition">Soutěže</a>
+			<a n:href="conference">Konference</a>
+			<a n:href="camp">Camp</a>
+		</p>
 		{include #mainNav}
 	</div>
 </div>

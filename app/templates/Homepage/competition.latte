@@ -22,12 +22,9 @@
 		<p n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</p>
 		<p class="nav quicknav" role="navigation">
 			Také organizujeme:
-
 			<a n:href="conference">Konference</a>
-
-
-			<!-- <a href="/junior-camp">Junior&nbsp;Camp</a>
-			<span class="wip" title="V přípravě">Junior&nbsp;Camp</span> -->
+			<a n:href="camp">Camp</a>
+			<a n:href="barcamp">Barcamp</a>
 		</p>
 
 		{include #mainNav}
