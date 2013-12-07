@@ -9,24 +9,20 @@
 
 $partnersDefinition = array(
 	'general'    => array(
-		'name' => 'Děkujeme našim generálním partnerům',
-		'headerTag' => 'h2',
-	),
-	'vse'    => array(
-		'name' => 'Konferenci spolupořádá',
+		'name' => 'Generální partneři',
 		'headerTag' => 'h2',
 	),
 	'main'    => array(
 		'name' => 'Partneři',
 		'headerTag' => 'h2',
 	),
+	'competition'    => array(
+		'name' => 'Partneři soutěží',
+		'headerTag' => 'h2',
+	),
 	'media'   => array(
 		'name' => 'Mediální partneři',
 		'headerTag' => 'h2',
-	),
-	'support' => array(
-		'name' => 'Podporovatelé',
-		'headerTag' => 'h3',
 	),
 	'others'  => array(
 		'name' => 'Spolupracujeme',
@@ -42,73 +38,24 @@ $partnersText = array(
 			'smallImage' => "nadace-vodafone-small.png",
 			'desktopImage' => "nadace-vodafone.png"
 		),
-		array(
-			'url' => "http://www.nic.cz/",
-			'alt' => "CZ.NIC",
-			'smallImage' => "cznic-small.png",
-			'desktopImage' => "cznic.png"
-		),
-
-		array(
-			'url' => "http://www.vsem.cz/",
-			'alt' => "VŠEM",
-			'smallImage' => "vsem-small.png",
-			'desktopImage' => "vsem.png"
-		),
-
-	),
-
-	'vse' => array(
-		array(
-			'url' => "http://fis.vse.cz/",
-			'alt' => "Vysoká Škola Ekonomická",
-			'smallImage' => "vse-small.png",
-			'desktopImage' => "vse.png"
-		),
 	),
 
 	'main' => array(
+		array(
+			'url' => "http://www.czechict.cz/",
+			'alt' => "Czech ICT Alliance",
+			'smallImage' => "ict-small.png",
+			'desktopImage' => "ict.png"
+		),
+	),
 
+	'competition' => array(
 		array(
-			'url' => "http://www.active24.cz/",
-			'alt' => "Active 24",
-			'smallImage' => "small-active24.png",
-			'desktopImage' => "active24.png"
+			'url' => "http://abdoc.net/",
+			'alt' => "abdoc",
+			'smallImage' => "abdoc-small.png",
+			'desktopImage' => "abdoc.png"
 		),
-
-		array(
-			'url' => "http://flowmedia.cz/",
-			'alt' => "Flow Media",
-			'smallImage' => "flow-small.png",
-			'desktopImage' => "flow.png"
-		),
-
-		array(
-			'url' => "http://www.fakturoid.cz/",
-			'alt' => "Fakturoid",
-			'smallImage' => "fakturoid-small.png",
-			'desktopImage' => "fakturoid.png"
-		),
-
-		array(
-			'url' => "http://www.geekshop.cz/",
-			'alt' => "Geekshop",
-			'smallImage' => "geekshop-small.png",
-			'desktopImage' => "geekshop.png"
-		),
-		array(
-			'url' => "http://www.jic.cz/",
-			'alt' => "Jihomoravské inovační centrum",
-			'smallImage' => "jic-small.png",
-			'desktopImage' => "jic.png"
-		),
-		array(
-			'url' => "https://prostor.erasvet.cz/",
-			'alt' => "Era svět",
-			'smallImage' => "era-small.png",
-			'desktopImage' => "era.png"
-		),
-
 	),
 
 	'media' => array(
@@ -120,96 +67,9 @@ $partnersText = array(
 			'desktopImage' => "respekt.png"
 		),
 
-		array(
-			'url' => "http://www.lupa.cz/",
-			'alt' => "Lupa.cz",
-			'smallImage' => "lupa-small.png",
-			'desktopImage' => "lupa.png"
-		),
-
-		array(
-			'url' => "http://www.root.cz/",
-			'alt' => "Root.cz",
-			'smallImage' => "root-small.png",
-			'desktopImage' => "root.png"
-		),
-
-		array(
-			'url' => "http://www.slunecnice.cz/",
-			'alt' => "Slunečnice.cz",
-			'smallImage' => "slunecnice-small.png",
-			'desktopImage' => "slunecnice.png"
-		),
-
-		array(
-			'url' => "http://www.ubuntu.cz/",
-			'alt' => "Ubuntu.cz",
-			'smallImage' => "ubuntu-small.png",
-			'desktopImage' => "ubuntu.png"
-		),
-
-		array(
-			'url' => "http://webexpo.cz/",
-			'alt' => "WebExpo",
-			'smallImage' => "webexpo-small.png",
-			'desktopImage' => "webexpo.png"
-		),
-
-		array(
-			'url' => "http://programujte.com/",
-			'alt' => "Programujte.com",
-			'smallImage' => "programujte-small.png",
-			'desktopImage' => "programujte.png"
-		),
-
-	),
-
-	'support' => array(
-
-		array(
-			'url' => "http://www.peoplecomm.cz/",
-			'alt' => "Peoplecomm",
-			'smallImage' => "peoplecomm-small.png",
-			'desktopImage' => "peoplecomm.png"
-		),
-
-		array(
-			'url' => "http://www.skaut.cz/",
-			'alt' => "Skaut",
-			'smallImage' => "skaut-small.png",
-			'desktopImage' => "skaut.png"
-		),
-
-		array(
-			'url' => "http://www.csas.cz/",
-			'alt' => "Česká spořitelna",
-			'smallImage' => "cs-small.png",
-			'desktopImage' => "cs.png"
-		),
-
-		array(
-			'url' => "http://www.rozectise.cz/",
-			'alt' => "Rozečti.se",
-			'smallImage' => "small-rozectise.png",
-			'desktopImage' => "rozectise.png"
-		),
 	),
 
 	'others' => array(
-
-		array(
-			'url' => "http://www.ceskyzavinac.cz/",
-			'alt' => "Český zavináč",
-			'smallImage' => "cesky-zavinac-small.png",
-			'desktopImage' => "cesky-zavinac.png"
-		),
-
-		array(
-			'url' => "http://www.isss.cz/",
-			'alt' => "ISSS",
-			'smallImage' => "isss-small.png",
-			'desktopImage' => "isss.png"
-		),
 
 		array(
 			'url' => "http://www.jsi.cz/",
@@ -218,12 +78,6 @@ $partnersText = array(
 			'desktopImage' => "jsi.png"
 		),
 
-		array(
-			'url' => "http://bizit.cz/",
-			'alt' => "Business IT Club",
-			'smallImage' => "bizit-small.png",
-			'desktopImage' => "bizit.png"
-		),
 	)
 );
 
