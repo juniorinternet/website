@@ -56,6 +56,12 @@ $partnersText = array(
 			'smallImage' => "abdoc-small.png",
 			'desktopImage' => "abdoc.png"
 		),
+		array(
+			'url' => "http://prusaresearch.com/",
+			'alt' => "Prusa Research",
+			'smallImage' => "prusa-small.png",
+			'desktopImage' => "prusa.png"
+		),
 	),
 
 	'media' => array(
@@ -65,6 +71,12 @@ $partnersText = array(
 			'alt' => "Respekt.cz",
 			'smallImage' => "respekt-small.png",
 			'desktopImage' => "respekt.png"
+		),
+		array(
+			'url' => "http://www.tyinternety.cz/",
+			'alt' => "tyinternety.cz",
+			'smallImage' => "tyinternety-small.png",
+			'desktopImage' => "tyinternety.png"
 		),
 
 	),
