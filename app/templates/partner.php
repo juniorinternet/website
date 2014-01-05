@@ -47,6 +47,12 @@ $partnersText = array(
 			'smallImage' => "ict-small.png",
 			'desktopImage' => "ict.png"
 		),
+		array(
+			'url' => "http://www.active24.cz/",
+			'alt' => "Active 24",
+			'smallImage' => "active24-small.png",
+			'desktopImage' => "active24.png"
+		),
 	),
 
 	'competition' => array(
