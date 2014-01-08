@@ -53,15 +53,15 @@ $partnersText = array(
 			'smallImage' => "active24-small.png",
 			'desktopImage' => "active24.png"
 		),
-	),
-
-	'competition' => array(
 		array(
 			'url' => "http://abdoc.net/",
 			'alt' => "abdoc",
 			'smallImage' => "abdoc-small.png",
 			'desktopImage' => "abdoc.png"
 		),
+	),
+
+	'competition' => array(
 		array(
 			'url' => "http://prusaresearch.com/",
 			'alt' => "Prusa Research",
@@ -94,6 +94,12 @@ $partnersText = array(
 			'alt' => "Jednota školských informatiků",
 			'smallImage' => "jsi-small.png",
 			'desktopImage' => "jsi.png"
+		),
+		array(
+			'url' => "http://www.ceskyzavinac.cz/",
+			'alt' => "Český zavináč",
+			'smallImage' => "cesky-zavinac-small.png",
+			'desktopImage' => "cesky-zavinac.png"
 		),
 
 	)
