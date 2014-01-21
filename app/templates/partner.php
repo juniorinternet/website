@@ -24,6 +24,10 @@ $partnersDefinition = array(
 		'name' => 'Mediální partneři',
 		'headerTag' => 'h2',
 	),
+	'support'  => array(
+		'name' => 'Podporovatelé',
+		'headerTag' => 'h3',
+	),
 	'others'  => array(
 		'name' => 'Spolupracujeme',
 		'headerTag' => 'h3',
@@ -68,6 +72,12 @@ $partnersText = array(
 			'smallImage' => "prusa-small.png",
 			'desktopImage' => "prusa.png"
 		),
+		array(
+			'url' => "http://www.rozectise.cz/",
+			'alt' => "Rozečtise.cz",
+			'smallImage' => "rozectise-small.png",
+			'desktopImage' => "rozectise.png"
+		),
 	),
 
 	'media' => array(
@@ -84,7 +94,22 @@ $partnersText = array(
 			'smallImage' => "tyinternety-small.png",
 			'desktopImage' => "tyinternety.png"
 		),
+		array(
+			'url' => "www.dvs.cz",
+			'alt' => "Deník veřejné správy",
+			'smallImage' => "dvs-small.png",
+			'desktopImage' => "dvs.png"
+		),
 
+	),
+
+	'support' => array(
+		array(
+			'url' => "http://www.peoplecomm.cz/",
+			'alt' => "peoplecomm",
+			'smallImage' => "peoplecomm-small.png",
+			'desktopImage' => "peoplecomm.png"
+		),
 	),
 
 	'others' => array(
@@ -100,6 +125,18 @@ $partnersText = array(
 			'alt' => "Český zavináč",
 			'smallImage' => "cesky-zavinac-small.png",
 			'desktopImage' => "cesky-zavinac.png"
+		),
+		array(
+			'url' => "http://www.plzensky-kraj.cz/",
+			'alt' => "Plzeňský kraj",
+			'smallImage' => "plzenskykraj-small.png",
+			'desktopImage' => "plzenskykraj.png"
+		),
+		array(
+			'url' => "http://www.praha.eu/",
+			'alt' => "Praha",
+			'smallImage' => "praha-small.png",
+			'desktopImage' => "praha.png"
 		),
 
 	)
