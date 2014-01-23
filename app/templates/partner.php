@@ -42,6 +42,12 @@ $partnersText = array(
 			'smallImage' => "nadace-vodafone-small.png",
 			'desktopImage' => "nadace-vodafone.png"
 		),
+		array(
+			'url' => "http://nic.cz/",
+			'alt' => "CZ NIC",
+			'smallImage' => "cznic-small.png",
+			'desktopImage' => "cznic.png"
+		),
 	),
 
 	'main' => array(
@@ -99,6 +105,18 @@ $partnersText = array(
 			'alt' => "Deník veřejné správy",
 			'smallImage' => "dvs-small.png",
 			'desktopImage' => "dvs.png"
+		),
+		array(
+			'url' => "www.lupa.cz",
+			'alt' => "Lupa.cz",
+			'smallImage' => "lupa-small.png",
+			'desktopImage' => "lupa.png"
+		),
+		array(
+			'url' => "www.root.cz",
+			'alt' => "Root.cz",
+			'smallImage' => "root-small.png",
+			'desktopImage' => "root.png"
 		),
 
 	),
