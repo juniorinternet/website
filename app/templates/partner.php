@@ -84,6 +84,12 @@ $partnersText = array(
 			'smallImage' => "rozectise-small.png",
 			'desktopImage' => "rozectise.png"
 		),
+		array(
+			'url' => "http://www.dobryweb.cz/",
+			'alt' => "Dobrý Web",
+			'smallImage' => "dobryweb-small.png",
+			'desktopImage' => "dobryweb.png"
+		),
 	),
 
 	'media' => array(
@@ -127,6 +133,12 @@ $partnersText = array(
 			'alt' => "peoplecomm",
 			'smallImage' => "peoplecomm-small.png",
 			'desktopImage' => "peoplecomm.png"
+		),
+		array(
+			'url' => "http://www.experienceu.com/cs/",
+			'alt' => "experienceu",
+			'smallImage' => "experienceu-small.png",
+			'desktopImage' => "experienceu.png"
 		),
 	),
 
